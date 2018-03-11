@@ -186,7 +186,8 @@ class hEntry(Microformat):
         'location': jsl.ArrayField(jsl.OneOfField([
             jsl.StringField(),
             jsl.DocumentField(hGeo, as_ref=True),
-            jsl.DocumentField(hAdr, as_ref=True)
+            jsl.DocumentField(hAdr, as_ref=True),
+            jsl.DocumentField(hCard, as_ref=True)
         ])),
         'syndication': uri_array,
         'in-reply-to': uri_array,
