@@ -21,16 +21,16 @@ content_array = jsl.ArrayField(jsl.OneOfField([
 ]))
 
 latitude = jsl.ArrayField(items=jsl.StringField(
-    pattern=r'[0-9]+\.[0-9]+' # TODO: this is far too lenient
+    pattern=r'[-+]?\d+(\.\d+)?'
 ))
 longitude = jsl.ArrayField(items=jsl.StringField(
-    pattern=r'[0-9]+\.[0-9]+' # TODO: this is far too lenient
+    pattern=r'[-+]?\d+(\.\d+)?'
 ))
 altitude = jsl.ArrayField(items=jsl.StringField(
-    pattern=r'[0-9]+\.[0-9]+' # TODO: this is far too lenient
+    pattern=r'[-+]?\d+(\.\d+)?'
 ))
 
-type_of = lambda type: jsl.ArrayField(jsl.StringField(enum=[type]), required=True, min_length=1, max_length=1)
+type_of = lambda *types: jsl.ArrayField(jsl.StringField(enum=types), required=True, min_length=1)
 
 
 #
@@ -162,9 +162,27 @@ class hProduct(Microformat):
         })),
         'review': jsl.ArrayField(jsl.OneOfField([
             jsl.StringField(),
-            jsl.DocumentField('hReview', as_ref=True)
+            jsl.DocumentField('hReview', as_ref=True),
+            jsl.DocumentField('hReviewAggregate', as_ref=True)
         ])),
         'price': string_array
+    })
+
+
+class hCite(Microformat):
+    type = type_of('h-cite')
+    properties = jsl.DictField(required=True, properties={
+        'name': string_array,
+        'published': datetime_array,
+        'author': jsl.ArrayField(jsl.OneOfField([
+            jsl.StringField(),
+            jsl.DocumentField(hCard, as_ref=True)
+        ])),
+        'url': uri_array,
+        'uid': uri_array,
+        'publication': string_array,
+        'accessed': datetime_array,
+        'content': content_array
     })
 
 
@@ -190,7 +208,10 @@ class hEntry(Microformat):
             jsl.DocumentField(hCard, as_ref=True)
         ])),
         'syndication': uri_array,
-        'in-reply-to': uri_array,
+        'in-reply-to': jsl.ArrayField(jsl.OneOfField([
+            jsl.StringField(format='uri'),
+            jsl.DocumentField(hCite, as_ref=True)
+        ])),
         'rsvp': jsl.ArrayField(
             jsl.StringField(enum=['yes', 'no', 'maybe', 'interested'], required=True),
             min_items=1,
@@ -247,10 +268,47 @@ class hReview(Microformat):
             jsl.DocumentField(hCard, as_ref=True)
         ])),
         'published': datetime_array,
-        'rating': jsl.ArrayField(jsl.StringField(enum=['1', '2', '3', '4', '5'])),
+        'rating': jsl.ArrayField(jsl.StringField()),
         'category': string_array,
         'url': uri_array,
         'content': content_array
+    })
+
+
+class hRating(Microformat):
+    type = type_of('h-rating')
+    properties = jsl.DictField(required=True, properties={
+        'average': string_array,
+        'best': string_array,
+        'count': string_array,
+        'name': string_array
+    })
+
+
+class hReviewAggregate(Microformat):
+    type = type_of('h-review-aggregate')
+    properties = jsl.DictField(required=True, properties={
+        'name': string_array,
+        'rating': jsl.ArrayField(jsl.OneOfField([
+            jsl.StringField(),
+            jsl.DocumentField(hRating, as_ref=True)
+        ])),
+        'item': jsl.ArrayField(jsl.OneOfField([
+            jsl.StringField(),
+            jsl.DocumentField(hCard, as_ref=True),
+            jsl.DocumentField(hItem, as_ref=True),
+            jsl.DocumentField(hProduct, as_ref=True),
+            jsl.DocumentField(hEvent, as_ref=True),
+            jsl.DocumentField(hAdr, as_ref=True),
+            jsl.DocumentField(hGeo, as_ref=True)
+        ])),
+        'average': string_array,
+        'best': string_array,
+        'worst': string_array,
+        'count': string_array,
+        'votes': string_array,
+        'category': string_array,
+        'url': uri_array
     })
 
 
@@ -258,7 +316,7 @@ class hRecipe(Microformat):
     type = type_of('h-recipe')
     properties = jsl.DictField(required=True, properties={
         'name': string_array,
-        'ingredient': string_array,
+        'ingredient': content_array,
         'yield': string_array,
         'instructions': content_array,
         'duration': string_array,
@@ -290,7 +348,27 @@ class hResume(Microformat):
     })
 
 
+class hFeed(Microformat):
+    type = type_of('h-feed')
+    properties = jsl.DictField(required=True, properties={
+        'name': string_array,
+        'author': jsl.ArrayField(jsl.OneOfField([
+            jsl.StringField(),
+            jsl.DocumentField(hCard, as_ref=True)
+        ])),
+        'url': uri_array,
+        'photo': uri_array,
+        'summary': content_array,
+        'children': jsl.ArrayField(
+            jsl.DocumentField(hEntry, as_ref=True)
+        )
+    })
+
+
 class MicroformatsDocument(jsl.Document):
+    class Options:
+        additional_properties = True
+
     items = jsl.ArrayField(jsl.OneOfField([
         jsl.DocumentField(hGeo, as_ref=True),
         jsl.DocumentField(hAdr, as_ref=True),
@@ -300,6 +378,8 @@ class MicroformatsDocument(jsl.Document):
         jsl.DocumentField(hEntry, as_ref=True),
         jsl.DocumentField(hEvent, as_ref=True),
         jsl.DocumentField(hReview, as_ref=True),
+        jsl.DocumentField(hReviewAggregate, as_ref=True),
         jsl.DocumentField(hRecipe, as_ref=True),
-        jsl.DocumentField(hResume, as_ref=True)
+        jsl.DocumentField(hResume, as_ref=True),
+        jsl.DocumentField(hFeed, as_ref=True)
     ]))
