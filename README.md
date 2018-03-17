@@ -48,3 +48,52 @@ import json
 
 print(json.dumps(microformats2.schema_for('h-entry'), indent=2))
 ```
+
+Determine the post type for a MF2 JSON entry, using the [Post Type
+Discovery](https://www.w3.org/TR/post-type-discovery/) guidelines from the W3C.
+
+```python3
+
+import microformats2
+
+mf2 = {
+    "type": [
+        "h-entry"
+    ],
+    "properties": {
+        "name": [
+            "Microformats are amazing"
+        ],
+        "author": [
+            {
+                "value": "W. Developer",
+                "type": [
+                    "h-card"
+                ],
+                "properties": {
+                    "name": [
+                        "W. Developer"
+                    ],
+                    "url": [
+                        "http://example.com"
+                    ]
+                }
+            }
+        ],
+        "published": [
+            "2013-06-13 12:00:00"
+        ],
+        "summary": [
+            "In which I extoll the virtues of using microformats."
+        ],
+        "content": [
+            {
+                "value": "Blah blah blah",
+                "html": "<p>Blah blah blah</p>"
+            }
+        ]
+    }
+}
+
+assert microformats2.get_post_type(mf2) == microformats2.PostTypes.article
+```
