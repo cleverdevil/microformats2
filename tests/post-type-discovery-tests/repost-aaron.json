@@ -1,0 +1,295 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "repost-of": [
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Justin Richer"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/e38cdf4c922259c2e4252cfdd49640976bfb102cde4281013618c536f44e5fb0.jpg"
+                                        ],
+                                        "url": [
+                                            "http://bspk.io/"
+                                        ]
+                                    },
+                                    "value": "Justin Richer"
+                                }
+                            ],
+                            "name": [
+                                "The article on OAuth and Authentication that I helped write/edit is online now: http://oauth.net/articles/authentication/ (thanks to @aaronpk for publishing!)"
+                            ],
+                            "url": [
+                                "https://twitter.com/zer0n1ne/status/529126352633344001"
+                            ],
+                            "content": [
+                                {
+                                    "html": "The article on OAuth and Authentication that I helped write/edit is online now: <a href=\"http://oauth.net/articles/authentication/\"><span class=\"protocol\">http://</span>oauth.net/articles/authentication/</a> (thanks to <a href=\"https://twitter.com/aaronpk\">@aaronpk</a> for publishing!)",
+                                    "value": "The article on OAuth and Authentication that I helped write/edit is online now: http://oauth.net/articles/authentication/ (thanks to @aaronpk for publishing!)"
+                                }
+                            ]
+                        },
+                        "value": "https://twitter.com/zer0n1ne/status/529126352633344001"
+                    }
+                ],
+                "comment": [
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Aaron Parecki"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/aaronparecki.com/315c3e5ec79692096afd23002ac6860e55387ebf3ee157ae2b7ef5d21ee75c9d.png"
+                                        ],
+                                        "url": [
+                                            "https://aaronparecki.com/"
+                                        ]
+                                    },
+                                    "value": "Aaron Parecki"
+                                }
+                            ],
+                            "name": [
+                                "Owning My Data in 2014"
+                            ],
+                            "url": [
+                                "https://aaronparecki.com/articles/2015/01/04/1/owning-my-data-in-2014"
+                            ],
+                            "published": [
+                                "2015-01-04T15:05:00-08:00"
+                            ]
+                        },
+                        "value": "Owning My Data in 2014"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Aaron Parecki"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/aaronparecki.com/2b8e1668dcd9cfa6a170b3724df740695f73a15c2a825962fd0a0967ec11ecdc.jpeg"
+                                        ],
+                                        "url": [
+                                            "https://aaronparecki.com/"
+                                        ]
+                                    },
+                                    "value": "Aaron Parecki"
+                                }
+                            ],
+                            "name": [
+                                "Owning My Data in 2014"
+                            ],
+                            "url": [
+                                "https://aaronparecki.com/2015/01/04/9/owning-my-data-in-2014"
+                            ],
+                            "published": [
+                                "2015-01-04T15:05:00-08:00"
+                            ]
+                        },
+                        "value": "Owning My Data in 2014"
+                    }
+                ],
+                "name": [
+                    ""
+                ],
+                "category": [
+                    "oauth",
+                    "oauth2"
+                ],
+                "url": [
+                    "https://aaronparecki.com/2014/11/02/22/oauth2"
+                ],
+                "syndication": [
+                    "https://twitter.com/aaronpk/status/529127377495154688"
+                ],
+                "author": [
+                    "https://aaronparecki.com/"
+                ],
+                "published": [
+                    "2014-11-02T23:22:07-05:00",
+                    "2014-11-02T20:25:00-08:00"
+                ]
+            }
+        },
+        {
+            "type": [
+                "h-card"
+            ],
+            "properties": {
+                "org": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "oauth.net"
+                            ],
+                            "url": [
+                                "https://oauth.net/"
+                            ]
+                        },
+                        "value": "oauth.net"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "role": [
+                                "Founder"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/indiewebcamp.png"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "W3C"
+                            ],
+                            "role": [
+                                "Editor"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/w3c.png"
+                            ],
+                            "url": [
+                                "https://www.w3.org/"
+                            ]
+                        },
+                        "value": "W3C"
+                    }
+                ],
+                "note": [
+                    "Hi, I'm Aaron Parecki,  co-founder of\nIndieWebCamp.\nI maintain oauth.net, write and consult about OAuth, and\nam the editor of the W3C Webmention and Micropub specifications, and co-editor of WebSub. \n\nI wrote 100 songs in 100 days! I've been tracking my location since 2008,\nand write down everything I eat and drink.\nI've spoken at conferences around the world about\nowning your data,\nOAuth,\nquantified self,\nand explained why R is a vowel."
+                ],
+                "name": [
+                    "Aaron Parecki"
+                ],
+                "callsign": [
+                    "W7APK"
+                ],
+                "url": [
+                    "https://aaronparecki.com/",
+                    "https://w7apk.com"
+                ],
+                "uid": [
+                    "https://aaronparecki.com/"
+                ],
+                "photo": [
+                    "https://aaronparecki.com/images/profile.jpg"
+                ],
+                "bday": [
+                    "--12-28"
+                ]
+            }
+        }
+    ],
+    "rels": {
+        "webmention": [
+            "https://webmention.io/aaronpk/webmention"
+        ],
+        "openid.delegate": [
+            "https://aaronparecki.com/"
+        ],
+        "openid.server": [
+            "https://openid.indieauth.com/openid"
+        ],
+        "authorization_endpoint": [
+            "https://aaronparecki.com/auth"
+        ],
+        "token_endpoint": [
+            "https://aaronparecki.com/auth/token"
+        ],
+        "micropub": [
+            "https://aaronparecki.com/micropub"
+        ],
+        "stylesheet": [
+            "https://aaronparecki.com/semantic/2.2.6/semantic.min.css",
+            "https://aaronparecki.com/assets/icomoon/style.css",
+            "https://aaronparecki.com/assets/weather-icons/css/weather-icons.css",
+            "https://aaronparecki.com/assets/featherlight-1.5.0/featherlight.min.css",
+            "https://aaronparecki.com/assets/admin.css",
+            "https://aaronparecki.com/assets/pulse.css",
+            "https://aaronparecki.com/assets/styles.css",
+            "https://aaronparecki.com/site/styles.css",
+            "https://aaronparecki.com/assets/carbon.css",
+            "https://chat.pin13.net/chat.css"
+        ],
+        "pgpkey": [
+            "https://aaronparecki.com/key.txt"
+        ],
+        "me": [
+            "sms:+15035678642",
+            "https://micro.blog/aaronpk"
+        ],
+        "license": [
+            "http://creativecommons.org/licenses/by/3.0/"
+        ]
+    },
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "content": [
+                    "https://indiewebcat.com/notes/2014/12/23/3/businesscatual"
+                ],
+                "name": [
+                    "https://indiewebcat.com/notes/2014/12/23/3/businesscatual"
+                ],
+                "like-of": [
+                    "https://indiewebcat.com/notes/2014/12/23/3/businesscatual"
+                ],
+                "url": [
+                    "https://aaronparecki.com/2014/12/26/8/"
+                ],
+                "author": [
+                    "https://aaronparecki.com/"
+                ],
+                "published": [
+                    "2014-12-26T16:15:10-08:00"
+                ]
+            }
+        },
+        {
+            "type": [
+                "h-card"
+            ],
+            "properties": {
+                "org": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "oauth.net"
+                            ],
+                            "url": [
+                                "https://oauth.net/"
+                            ]
+                        },
+                        "value": "oauth.net"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "role": [
+                                "Founder"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/indiewebcamp.png"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "W3C"
+                            ],
+                            "role": [
+                                "Editor"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/w3c.png"
+                            ],
+                            "url": [
+                                "https://www.w3.org/"
+                            ]
+                        },
+                        "value": "W3C"
+                    }
+                ],
+                "note": [
+                    "Hi, I'm Aaron Parecki,  co-founder of\nIndieWebCamp.\nI maintain oauth.net, write and consult about OAuth, and\nam the editor of the W3C Webmention and Micropub specifications, and co-editor of WebSub. \n\nI wrote 100 songs in 100 days! I've been tracking my location since 2008,\nand write down everything I eat and drink.\nI've spoken at conferences around the world about\nowning your data,\nOAuth,\nquantified self,\nand explained why R is a vowel."
+                ],
+                "name": [
+                    "Aaron Parecki"
+                ],
+                "callsign": [
+                    "W7APK"
+                ],
+                "url": [
+                    "https://aaronparecki.com/",
+                    "https://w7apk.com"
+                ],
+                "uid": [
+                    "https://aaronparecki.com/"
+                ],
+                "photo": [
+                    "https://aaronparecki.com/images/profile.jpg"
+                ],
+                "bday": [
+                    "--12-28"
+                ]
+            }
+        }
+    ],
+    "rels": {
+        "webmention": [
+            "https://webmention.io/aaronpk/webmention"
+        ],
+        "openid.delegate": [
+            "https://aaronparecki.com/"
+        ],
+        "openid.server": [
+            "https://openid.indieauth.com/openid"
+        ],
+        "authorization_endpoint": [
+            "https://aaronparecki.com/auth"
+        ],
+        "token_endpoint": [
+            "https://aaronparecki.com/auth/token"
+        ],
+        "micropub": [
+            "https://aaronparecki.com/micropub"
+        ],
+        "stylesheet": [
+            "https://aaronparecki.com/semantic/2.2.6/semantic.min.css",
+            "https://aaronparecki.com/assets/icomoon/style.css",
+            "https://aaronparecki.com/assets/weather-icons/css/weather-icons.css",
+            "https://aaronparecki.com/assets/featherlight-1.5.0/featherlight.min.css",
+            "https://aaronparecki.com/assets/admin.css",
+            "https://aaronparecki.com/assets/pulse.css",
+            "https://aaronparecki.com/assets/styles.css",
+            "https://aaronparecki.com/site/styles.css",
+            "https://aaronparecki.com/assets/carbon.css",
+            "https://chat.pin13.net/chat.css"
+        ],
+        "pgpkey": [
+            "https://aaronparecki.com/key.txt"
+        ],
+        "me": [
+            "sms:+15035678642",
+            "https://micro.blog/aaronpk"
+        ],
+        "license": [
+            "http://creativecommons.org/licenses/by/3.0/"
+        ]
+    },
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}

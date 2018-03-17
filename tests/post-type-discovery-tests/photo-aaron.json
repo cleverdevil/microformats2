@@ -1,0 +1,520 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "location": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "Computer History Museum"
+                            ],
+                            "latitude": [
+                                "37.414534"
+                            ],
+                            "longitude": [
+                                "-122.077517"
+                            ]
+                        },
+                        "value": "Computer History Museum"
+                    }
+                ],
+                "like": [
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Amber Case"
+                                        ],
+                                        "photo": [
+                                            "https://distillery.s3.amazonaws.com/profiles/profile_5792358_75sq_1364955062.jpg"
+                                        ],
+                                        "url": [
+                                            "http://instagram.com/caseorganic"
+                                        ]
+                                    },
+                                    "value": "Amber Case"
+                                }
+                            ],
+                            "url": [
+                                "http://instagram.com/p/nqkp7qjcj2/"
+                            ],
+                            "name": [
+                                "Amber Case"
+                            ]
+                        },
+                        "value": "Amber Case"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Ben Michel"
+                                        ],
+                                        "photo": [
+                                            "https://pbs.twimg.com/profile_images/444713131986526208/ZdcDTjKu.jpeg"
+                                        ],
+                                        "url": [
+                                            "http://twitter.com/obensource"
+                                        ]
+                                    },
+                                    "value": "Ben Michel"
+                                }
+                            ],
+                            "url": [
+                                "http://twitter.com/aaronpk/status/463747044260065280"
+                            ],
+                            "name": [
+                                "Ben Michel"
+                            ]
+                        },
+                        "value": "Ben Michel"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Tantek \u00c7elik"
+                                        ],
+                                        "photo": [
+                                            "https://distillery.s3.amazonaws.com/profiles/profile_2975244_75sq_1390152350.jpg"
+                                        ],
+                                        "url": [
+                                            "http://instagram.com/tantek"
+                                        ]
+                                    },
+                                    "value": "Tantek \u00c7elik"
+                                }
+                            ],
+                            "url": [
+                                "http://instagram.com/p/nqkp7qjcj2/"
+                            ],
+                            "name": [
+                                "Tantek \u00c7elik"
+                            ]
+                        },
+                        "value": "Tantek \u00c7elik"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Tantek \u00c7elik"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/38f635b64f6add618dfb72c1f115322b8c92777ddc5efd2784806c2d3f20df2e.jpeg"
+                                        ],
+                                        "url": [
+                                            "http://twitter.com/t"
+                                        ]
+                                    },
+                                    "value": "Tantek \u00c7elik"
+                                }
+                            ],
+                            "url": [
+                                "http://twitter.com/aaronpk/status/463747044260065280"
+                            ],
+                            "name": [
+                                "Tantek \u00c7elik"
+                            ]
+                        },
+                        "value": "Tantek \u00c7elik"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Charlie O'Keefe"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/bf365a113c0276c636d7c9ce60c6fedccc0b441c019dc74e5649cd5ded563ba4.jpeg"
+                                        ],
+                                        "url": [
+                                            "http://twitter.com/charlieok"
+                                        ]
+                                    },
+                                    "value": "Charlie O'Keefe"
+                                }
+                            ],
+                            "url": [
+                                "http://twitter.com/aaronpk/status/463747044260065280"
+                            ],
+                            "name": [
+                                "Charlie O'Keefe"
+                            ]
+                        },
+                        "value": "Charlie O'Keefe"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Ben Michel"
+                                        ],
+                                        "photo": [
+                                            "https://distillery.s3.amazonaws.com/profiles/profile_14104640_75sq_1396284103.jpg"
+                                        ],
+                                        "url": [
+                                            "http://instagram.com/obensource"
+                                        ]
+                                    },
+                                    "value": "Ben Michel"
+                                }
+                            ],
+                            "url": [
+                                "http://instagram.com/p/nqkp7qjcj2/"
+                            ],
+                            "name": [
+                                "Ben Michel"
+                            ]
+                        },
+                        "value": "Ben Michel"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Shane Becker"
+                                        ],
+                                        "photo": [
+                                            "https://distillery.s3.amazonaws.com/profiles/profile_1403229_75sq_1386973867.jpg"
+                                        ],
+                                        "url": [
+                                            "http://instagram.com/veganstraightedge"
+                                        ]
+                                    },
+                                    "value": "Shane Becker"
+                                }
+                            ],
+                            "url": [
+                                "http://instagram.com/p/nqkp7qjcj2/"
+                            ],
+                            "name": [
+                                "Shane Becker"
+                            ]
+                        },
+                        "value": "Shane Becker"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Mike Goggin"
+                                        ],
+                                        "photo": [
+                                            "https://pbs.twimg.com/profile_images/2678215087/4719f4ee7059ad759d4e1600a0cdb920.jpeg"
+                                        ],
+                                        "url": [
+                                            "http://twitter.com/MichaelGoggin"
+                                        ]
+                                    },
+                                    "value": "Mike Goggin"
+                                }
+                            ],
+                            "url": [
+                                "http://twitter.com/aaronpk/status/463747044260065280"
+                            ],
+                            "name": [
+                                "Mike Goggin"
+                            ]
+                        },
+                        "value": "Mike Goggin"
+                    }
+                ],
+                "comment": [
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Amber Case"
+                                        ],
+                                        "photo": [
+                                            "https://distillery.s3.amazonaws.com/profiles/profile_5792358_75sq_1364955062.jpg"
+                                        ],
+                                        "url": [
+                                            "http://instagram.com/caseorganic"
+                                        ]
+                                    },
+                                    "value": "Amber Case"
+                                }
+                            ],
+                            "name": [
+                                "Hi Ben!"
+                            ],
+                            "url": [
+                                "http://instagram.com/p/nqkp7qjcj2/"
+                            ],
+                            "published": [
+                                "2014-05-06T11:28:48-07:00"
+                            ],
+                            "content": [
+                                {
+                                    "html": "Hi Ben!",
+                                    "value": "Hi Ben!"
+                                }
+                            ]
+                        },
+                        "value": "Hi Ben!"
+                    }
+                ],
+                "name": [
+                    "Session scheduling #iiw #indieweb"
+                ],
+                "category": [
+                    "iiw",
+                    "indieweb",
+                    "iiw",
+                    "indieweb"
+                ],
+                "photo": [
+                    "https://aaronparecki.com/2014/05/06/12/photo.jpeg"
+                ],
+                "url": [
+                    "https://aaronparecki.com/2014/05/06/12/iiw-indieweb"
+                ],
+                "syndication": [
+                    "http://instagram.com/p/nqkp7qjcj2/",
+                    "https://twitter.com/aaronpk/status/463747044260065280"
+                ],
+                "author": [
+                    "https://aaronparecki.com/"
+                ],
+                "published": [
+                    "2014-05-06T11:19:48-07:00"
+                ],
+                "content": [
+                    {
+                        "html": "Session scheduling <a href=\"https://aaronparecki.com/tag/iiw\">#<span class=\"p-category\">iiw</span></a> <a href=\"https://aaronparecki.com/tag/indieweb\">#<span class=\"p-category\">indieweb</span></a>",
+                        "value": "Session scheduling #iiw #indieweb"
+                    }
+                ]
+            }
+        },
+        {
+            "type": [
+                "h-card"
+            ],
+            "properties": {
+                "org": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "oauth.net"
+                            ],
+                            "url": [
+                                "https://oauth.net/"
+                            ]
+                        },
+                        "value": "oauth.net"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "role": [
+                                "Founder"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/indiewebcamp.png"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "W3C"
+                            ],
+                            "role": [
+                                "Editor"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/w3c.png"
+                            ],
+                            "url": [
+                                "https://www.w3.org/"
+                            ]
+                        },
+                        "value": "W3C"
+                    }
+                ],
+                "note": [
+                    "Hi, I'm Aaron Parecki,  co-founder of\nIndieWebCamp.\nI maintain oauth.net, write and consult about OAuth, and\nam the editor of the W3C Webmention and Micropub specifications, and co-editor of WebSub. \n\nI wrote 100 songs in 100 days! I've been tracking my location since 2008,\nand write down everything I eat and drink.\nI've spoken at conferences around the world about\nowning your data,\nOAuth,\nquantified self,\nand explained why R is a vowel."
+                ],
+                "name": [
+                    "Aaron Parecki"
+                ],
+                "callsign": [
+                    "W7APK"
+                ],
+                "url": [
+                    "https://aaronparecki.com/",
+                    "https://w7apk.com"
+                ],
+                "uid": [
+                    "https://aaronparecki.com/"
+                ],
+                "photo": [
+                    "https://aaronparecki.com/images/profile.jpg"
+                ],
+                "bday": [
+                    "--12-28"
+                ]
+            }
+        }
+    ],
+    "rels": {
+        "webmention": [
+            "https://webmention.io/aaronpk/webmention"
+        ],
+        "openid.delegate": [
+            "https://aaronparecki.com/"
+        ],
+        "openid.server": [
+            "https://openid.indieauth.com/openid"
+        ],
+        "authorization_endpoint": [
+            "https://aaronparecki.com/auth"
+        ],
+        "token_endpoint": [
+            "https://aaronparecki.com/auth/token"
+        ],
+        "micropub": [
+            "https://aaronparecki.com/micropub"
+        ],
+        "stylesheet": [
+            "https://aaronparecki.com/semantic/2.2.6/semantic.min.css",
+            "https://aaronparecki.com/assets/icomoon/style.css",
+            "https://aaronparecki.com/assets/weather-icons/css/weather-icons.css",
+            "https://aaronparecki.com/assets/featherlight-1.5.0/featherlight.min.css",
+            "https://aaronparecki.com/assets/admin.css",
+            "https://aaronparecki.com/assets/pulse.css",
+            "https://aaronparecki.com/assets/styles.css",
+            "https://aaronparecki.com/site/styles.css",
+            "https://aaronparecki.com/assets/carbon.css",
+            "https://chat.pin13.net/chat.css"
+        ],
+        "pgpkey": [
+            "https://aaronparecki.com/key.txt"
+        ],
+        "me": [
+            "sms:+15035678642",
+            "https://micro.blog/aaronpk"
+        ],
+        "license": [
+            "http://creativecommons.org/licenses/by/3.0/"
+        ]
+    },
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}

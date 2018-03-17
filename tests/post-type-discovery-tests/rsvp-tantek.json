@@ -1,0 +1,205 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "in-reply-to": [
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "name": [
+                                "http://aaronparecki.com/events/2013/09/21/1/indiewebcamp-breakfast"
+                            ],
+                            "url": [
+                                "http://aaronparecki.com/events/2013/09/21/1/indiewebcamp-breakfast"
+                            ]
+                        },
+                        "value": "http://aaronparecki.com/events/2013/09/21/1/indiewebcamp-breakfast"
+                    }
+                ],
+                "author": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "Tantek \u00c7elik"
+                            ],
+                            "photo": [
+                                "http://tantek.com/logo.jpg"
+                            ],
+                            "url": [
+                                "http://tantek.com/"
+                            ]
+                        },
+                        "value": "Tantek \u00c7elik"
+                    }
+                ],
+                "rsvp": [
+                    "yes"
+                ],
+                "name": [
+                    "going to #IndieWebCamp breakfast 9am @theoriginalpdx cc: @benwerd @blaine @daltonc @evanpro @kevinmarks RSVP: http://aaronparecki.com/events/2013/09/21/1/indiewebcamp-breakfast\nP.S. Just implemented #indieweb RSVP \"yes\" in @Falcon this morning. This is my first RSVP post. Details:\n* indiewebcamp.com/rsvp\n* ufs.cc/w/rsvp-brainstorming#h-entry_plus_additions"
+                ],
+                "category": [
+                    "IndieWebCamp",
+                    "indieweb"
+                ],
+                "url": [
+                    "http://tantek.com/2013/264/t1/indiewebcamp-breakfast-rsvp"
+                ],
+                "uid": [
+                    "http://tantek.com/2013/264/t1/indiewebcamp-breakfast-rsvp"
+                ],
+                "syndication": [
+                    "http://twitter.com/t/status/381440402500648960"
+                ],
+                "published": [
+                    "2013-09-21T08:30-0700"
+                ],
+                "updated": [
+                    "2013-09-21T08:30-0700"
+                ],
+                "content": [
+                    {
+                        "html": "going to #<span class=\"p-category auto-tag\">IndieWebCamp</span> breakfast 9am <a class=\"auto-link h-cassis-username\" href=\"https://twitter.com/theoriginalpdx\">@theoriginalpdx</a> cc: <a class=\"auto-link h-cassis-username\" href=\"https://twitter.com/benwerd\">@benwerd</a> <a class=\"auto-link h-cassis-username\" href=\"https://twitter.com/blaine\">@blaine</a> <a class=\"auto-link h-cassis-username\" href=\"https://twitter.com/daltonc\">@daltonc</a> <a class=\"auto-link h-cassis-username\" href=\"https://twitter.com/evanpro\">@evanpro</a> <a class=\"auto-link h-cassis-username\" href=\"https://twitter.com/kevinmarks\">@kevinmarks</a> RSVP: <a class=\"auto-link\" href=\"http://aaronparecki.com/events/2013/09/21/1/indiewebcamp-breakfast\">http://aaronparecki.com/events/2013/09/21/1/indiewebcamp-breakfast</a><br class=\"auto-break\">P.S. Just implemented #<span class=\"p-category auto-tag\">indieweb</span> RSVP \"yes\" in <a class=\"auto-link h-cassis-username\" href=\"https://twitter.com/Falcon\">@Falcon</a> this morning. This is my first RSVP post. Details:<br class=\"auto-break\">* <a class=\"auto-link\" href=\"http://indiewebcamp.com/rsvp\">indiewebcamp.com/rsvp</a><br class=\"auto-break\">* <a class=\"auto-link\" href=\"http://ufs.cc/w/rsvp-brainstorming#h-entry_plus_additions\">ufs.cc/w/rsvp-brainstorming#h-entry_plus_additions</a>",
+                        "value": "going to #IndieWebCamp breakfast 9am @theoriginalpdx cc: @benwerd @blaine @daltonc @evanpro @kevinmarks RSVP: http://aaronparecki.com/events/2013/09/21/1/indiewebcamp-breakfast\nP.S. Just implemented #indieweb RSVP \"yes\" in @Falcon this morning. This is my first RSVP post. Details:\n* indiewebcamp.com/rsvp\n* ufs.cc/w/rsvp-brainstorming#h-entry_plus_additions"
+                    }
+                ]
+            },
+            "children": [
+                {
+                    "type": [
+                        "h-cassis-username"
+                    ],
+                    "properties": {
+                        "name": [
+                            "@theoriginalpdx"
+                        ],
+                        "url": [
+                            "https://twitter.com/theoriginalpdx"
+                        ]
+                    }
+                },
+                {
+                    "type": [
+                        "h-cassis-username"
+                    ],
+                    "properties": {
+                        "name": [
+                            "@benwerd"
+                        ],
+                        "url": [
+                            "https://twitter.com/benwerd"
+                        ]
+                    }
+                },
+                {
+                    "type": [
+                        "h-cassis-username"
+                    ],
+                    "properties": {
+                        "name": [
+                            "@blaine"
+                        ],
+                        "url": [
+                            "https://twitter.com/blaine"
+                        ]
+                    }
+                },
+                {
+                    "type": [
+                        "h-cassis-username"
+                    ],
+                    "properties": {
+                        "name": [
+                            "@daltonc"
+                        ],
+                        "url": [
+                            "https://twitter.com/daltonc"
+                        ]
+                    }
+                },
+                {
+                    "type": [
+                        "h-cassis-username"
+                    ],
+                    "properties": {
+                        "name": [
+                            "@evanpro"
+                        ],
+                        "url": [
+                            "https://twitter.com/evanpro"
+                        ]
+                    }
+                },
+                {
+                    "type": [
+                        "h-cassis-username"
+                    ],
+                    "properties": {
+                        "name": [
+                            "@kevinmarks"
+                        ],
+                        "url": [
+                            "https://twitter.com/kevinmarks"
+                        ]
+                    }
+                },
+                {
+                    "type": [
+                        "h-cassis-username"
+                    ],
+                    "properties": {
+                        "name": [
+                            "@Falcon"
+                        ],
+                        "url": [
+                            "https://twitter.com/Falcon"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "rels": {
+        "icon": [
+            "http://tantek.com/logo.jpg"
+        ],
+        "webmention": [
+            "http://webmention.io/tantek.com/webmention"
+        ],
+        "author": [
+            "http://tantek.com/",
+            "http://tantek.com/"
+        ],
+        "home": [
+            "http://tantek.com/"
+        ],
+        "prev": [
+            "http://tantek.com/2013/263/t5/xoxofest-q-a-magical-ability-isolate-person-no-wants"
+        ],
+        "next": [
+            "http://tantek.com/2013/264/t2/xoxofest-xoxofest-aaronsw-freedom-cah-value-positive-sum"
+        ],
+        "in-reply-to": [
+            "http://aaronparecki.com/events/2013/09/21/1/indiewebcamp-breakfast"
+        ],
+        "syndication": [
+            "http://twitter.com/t/status/381440402500648960"
+        ]
+    },
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "author": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "Tantek \u00c7elik"
+                            ],
+                            "photo": [
+                                "http://tantek.com/logo.jpg"
+                            ],
+                            "url": [
+                                "http://tantek.com/"
+                            ]
+                        },
+                        "value": "Tantek \u00c7elik"
+                    }
+                ],
+                "name": [
+                    "a photo. \nDid entire #NPSF #trackattack:\n1600 1200 1000 800 600 400 abs.\n\nPrev: tantek.com/2015/230/t1/npsf-trackish\nPrev completion: tantek.com/2015/118/t1/npsf-trackattack-done"
+                ],
+                "category": [
+                    "NPSF",
+                    "trackattack:"
+                ],
+                "syndication": [
+                    "https://instagram.com/p/7GEfT3g9Vo",
+                    "https://www.facebook.com/photo.php?fbid=10101862796233213",
+                    "https://twitter.com/t/status/638755285159559168"
+                ],
+                "photo": [
+                    "https://scontent-sjc2-1.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/11821356_395494483975922_1481558253_n.jpg"
+                ],
+                "url": [
+                    "http://tantek.com/2015/244/t1/did-entire-npsf-trackattack"
+                ],
+                "uid": [
+                    "http://tantek.com/2015/244/t1/did-entire-npsf-trackattack"
+                ],
+                "published": [
+                    "2015-09-01T09:48-0700"
+                ],
+                "updated": [
+                    "2015-09-01T09:48-0700"
+                ],
+                "content": [
+                    {
+                        "html": "<a class=\"auto-link figure u-syndication\" href=\"https://instagram.com/p/7GEfT3g9Vo\"><img class=\"auto-embed u-photo\" alt=\"a photo. \" src=\"https://scontent-sjc2-1.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/11821356_395494483975922_1481558253_n.jpg\"></a><br class=\"auto-break\">Did entire #<span class=\"p-category auto-tag\">NPSF</span> #<span class=\"p-category auto-tag\">trackattack:</span><br class=\"auto-break\">1600 1200 1000 800 600 400 abs.<br class=\"auto-break\"><br class=\"auto-break\">Prev: <a class=\"auto-link\" href=\"http://tantek.com/2015/230/t1/npsf-trackish\">tantek.com/2015/230/t1/npsf-trackish</a><br class=\"auto-break\">Prev completion: <a class=\"auto-link\" href=\"http://tantek.com/2015/118/t1/npsf-trackattack-done\">tantek.com/2015/118/t1/npsf-trackattack-done</a>",
+                        "value": "a photo. \nDid entire #NPSF #trackattack:\n1600 1200 1000 800 600 400 abs.\n\nPrev: tantek.com/2015/230/t1/npsf-trackish\nPrev completion: tantek.com/2015/118/t1/npsf-trackattack-done"
+                    }
+                ]
+            }
+        }
+    ],
+    "rels": {
+        "icon": [
+            "http://tantek.com/logo.jpg"
+        ],
+        "webmention": [
+            "http://webmention.io/tantek.com/webmention"
+        ],
+        "author": [
+            "http://tantek.com/",
+            "http://tantek.com/"
+        ],
+        "home": [
+            "http://tantek.com/"
+        ],
+        "prev": [
+            "http://tantek.com/2015/243/t7/tomorrowland-futureoptimism-build"
+        ],
+        "next": [
+            "http://tantek.com/2015/244/t2/saving-jam-shoot-it-up-there"
+        ],
+        "syndication": [
+            "https://www.facebook.com/photo.php?fbid=10101862796233213",
+            "https://twitter.com/t/status/638755285159559168"
+        ]
+    },
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}

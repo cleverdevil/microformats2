@@ -1,0 +1,184 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "name": [
+                    "German Radio Program"
+                ],
+                "category": [
+                    "past-projects",
+                    "schoolwork",
+                    "german"
+                ],
+                "url": [
+                    "https://aaronparecki.com/2004/12/03/1/german-radio-program"
+                ],
+                "author": [
+                    "https://aaronparecki.com/"
+                ],
+                "published": [
+                    "2004-12-03T12:00:00-08:00"
+                ],
+                "content": [
+                    {
+                        "html": "<p>This German radio program was a group project of <a href=\"http://twitter.com/aaronpk\">Aaron Parecki</a>, Joel Young, Kirsten Arbogast, <a href=\"http://twitter.com/epicwheelworks\">Jude Kirstein</a>, and Viktoria Wensl\u00f6w during a German 311 course at the University of Oregon. We had a great time putting it together and presenting it, so I figured it deserved a place on the Internet. You can listen to the whole thing here.</p>\n\n<div id=\"album_radio\" class=\"playerContainer\">\n        <div class=\"musicPlayer\" style=\"height:24px\"><object type=\"application/x-shockwave-flash\" name=\"musicPlayer_radio\" style=\"outline: none; visibility: visible;\" data=\"https://aaronparecki.com/assets/player/player.swf\" width=\"440\" height=\"24\" id=\"musicPlayer_radio\"><param name=\"bgcolor\" value=\"#FFFFFF\">\n<param name=\"wmode\" value=\"transparent\">\n<param name=\"menu\" value=\"false\">\n<param name=\"flashvars\" value=\"animation=no&amp;autostart=no&amp;loader=0F3E7F&amp;bg=E3E3E3&amp;soundFile=gr_01_intro.mp3&amp;titles=Introduction, Weather, Traffic&amp;artists=&amp;playerID=musicPlayer_radio\"></object></div>\n        <div class=\"trackRow\" data-filename=\"gr_01_intro.mp3\">\n<span class=\"num\">1</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#introduction-weather-traffic\">Introduction, Weather, Traffic</a></span><span class=\"trackTime\">1:14</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_02_news.mp3\">\n<span class=\"num\">2</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#news\">News</a></span><span class=\"trackTime\">1:57</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_03_nutella.mp3\">\n<span class=\"num\">3</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#commercial-nutella\">Commercial: Nutella</a></span><span class=\"trackTime\">0:48</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_04_flab_buster.mp3\">\n<span class=\"num\">4</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#commercial-flab-buster\">Commercial: Flab Buster</a></span><span class=\"trackTime\">1:14</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_05_karahasan.mp3\">\n<span class=\"num\">5</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#interview-karahasan\">Interview: Karahasan</a></span><span class=\"trackTime\">2:07</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_06_lebanese.mp3\">\n<span class=\"num\">6</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#interview-der-lebanese\">Interview: Der Lebanese</a></span><span class=\"trackTime\">2:27</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_07_regina.mp3\">\n<span class=\"num\">7</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#regina\">Regina</a></span><span class=\"trackTime\">3:17</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_08_schlafsucht.mp3\">\n<span class=\"num\">8</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#commercial-schlafsucht\">Commercial: Schlafsucht</a></span><span class=\"trackTime\">1:24</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_09_leica.mp3\">\n<span class=\"num\">9</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#commercial-leica-camera\">Commercial: Leica Camera</a></span><span class=\"trackTime\">1:11</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_10_cooking.mp3\">\n<span class=\"num\">10</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#cooking-show\">Cooking Show</a></span><span class=\"trackTime\">1:39</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_11_sportminute.mp3\">\n<span class=\"num\">11</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#sportminute\">Sportminute</a></span><span class=\"trackTime\">1:41</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n<div class=\"trackRow\" data-filename=\"gr_12_mackie_messer.mp3\">\n<span class=\"num\">12</span> <span class=\"title\"><a href=\"https://aaronparecki.com/2004/12/03/1/german-radio-program#mackie-messer\">Mackie Messer</a></span><span class=\"trackTime\">2:36</span><img class=\"trackPlayButton\" src=\"https://aaronparecki.com/assets/player/control_play_blue.png\" alt=\"Click to play!\" style=\"cursor: pointer;\">\n</div>\n        <div class=\"artist\"></div>\n        <div class=\"album\"></div>\n</div>\n\n<h2>Introduction, Weather, Traffic</h2>\n\n<p>Good morning Bavaria. It's going to be a cloudy day, but don't give up hope immediately, we expect the sun to break thorough early this afternoon. All you commuters better perk your ears up, because coming up next is pertinent info to your drive. Our weather man is reporting from our helicopter. \"Are you there, Rolf?\" \"Yeah, I'm up here like a star in the sky.\" \"What do you have regarding the traffic?\" \"Just recently an traffic jam has built up on the south-bound lane of the Munich-Garmisch-Partenkirchen freeway. If I were you, I'd go somewhere else, if you're headin' south. Also, a terrible accident just occurred in downtown Munich. Three people have been hurt. The driver has both legs broken. The passenger suffers from pleurisy. The pedestrian they ran over fights for his life in the hospital. Hopefully his current one-foot-in-the-grave state won't last long. That's it, until later.\" \"Thanks Rolf, you're the king of your own world, we'll never be able to understand.\"</p>\n\n<ul>\n<li>unter bedecktem Himmel stehen, to be overcast outside; cloudy</li>\n<li>der Pendler, commuter</li>\n<li>der Hubschrauber, helicopter</li>\n<li>der Stau, traffic jam</li>\n<li>die Rippenfellentz\u00fcndung, pluersy (difficulty breathing)</li>\n<li>der F\u00fcssg\u00e4nger, pedestrian</li>\n</ul>\n<h2>News</h2>\n\n<p>A new German beer claims that it slows down the aging process, either by drinking it or dabbing it on one's skin. Like any other beer, this one can lead to drunkenness and therefore also a hangover, due to it 4.8% alcohol content. Interestingly enough the production of this beer could be illegal under the oldest law in the world, which was made in 1516 and asserts that \"beer\" can only contain four ingredients: Hops, barley, yeast and water. This issue will be decided in a court of law and if it is found that it cannot be called beer, then they will have to label it as something else. As for whether or not it really does work as an anti-aging tonic, if the brew doesn't do anything when you dab it on your skin, you can always go the traditional route and use it to drown your sorrows.</p>\n\n<ul>\n<li>verlangsamen, to slow down</li>\n<li>die Einleitung, introduction</li>\n<li>avisiert sein, to be advised</li>\n<li>das Gesetz, law</li>\n<li>der Prozess, trial</li>\n</ul>\n<h2>Commercial: Nutella</h2>\n\n<p>A commercial for Nutella. Two announcers believe they can do a serious commercial about Nutella but as they attempt to do so they get swept away into their fantasies about Nutella.</p>\n\n<ul>\n<li>Messer, knife</li>\n<li>sahnige, creamy</li>\n<li>steichen, to spread</li>\n<li>Schicht, layer</li>\n</ul>\n<h2>Commercial: Flab Buster</h2>\n\n<p>A commercial for an electronic device that burns fat for you so you don't have to.</p>\n\n<ul>\n<li>abnehmen, to lose weight</li>\n<li>das Gewicht, weight</li>\n<li>Ultraschallimpulse, ultrasonic pulses</li>\n<li>bombardieren, to bombard</li>\n<li>der Staubsauger, vaccuum cleaner</li>\n<li>absaugen, to suck off</li>\n<li>verursachen, to cause</li>\n<li>die Testergebnisse, test results</li>\n<li>auftreten, to appear</li>\n<li>der Ausschlag, rash</li>\n</ul>\n<h2>Interview: Karahasan</h2>\n\n<p>This is \"Poetry Time\" for the radio station, and the poet reading his poems today is the author of the story \"Heimat: Tiefer, gr\u00f6sser, weiter als wir selbst\". In this section we wanted to summarize the author's point of view as it came across in the story, but also capitalizing on the way he told it, VERY DRAMATICALLY. The poems he has supposedly written are very simple, yet extremely melodramatic. But even though it is meant to be funny, it still summarizes the author's actual feelings as told in his short story. The basic format is an announcer conducting a brief interview with a famous German poet, and is followed by the poet reading two poems of his homeland out loud.</p>\n\n<ul>\n<li>der Bach, stream</li>\n<li>die Erinnerungen, memories</li>\n<li>die Vergangenheit, past</li>\n<li>die Gedichte, poems</li>\n<li>vorlesen, to read to</li>\n</ul>\n<h2>Interview: Der Lebanese</h2>\n\n<p>A reporter shows up on the scene to find a Lebanese man trying to move into his house but can't because a bookcase is standing before his doorway. The reporter asks the Lebanese man how he feels and to no surprise finds out that the Lebanese man feels unwelcome. To Herr Helmut it feels like his duty. The reporter realizes what he's saying and feels she needs to do something about it and so she decides to call all Germans together to literally embrace/hug all foreigners. The irony in this piece is that the reporter never gets to know the Lebanese Man's name and consistently refers to him as a foreigner or an outlandish person. She doesn't realize how unwelcoming she herself is.</p>\n\n<ul>\n<li>B\u00fcchershrank, bookcase</li>\n<li>br\u00fcllt, screams</li>\n<li>Wahrheit, truth</li>\n<li>umarmen, to hug</li>\n</ul>\n<h2>Regina</h2>\n\n<p>Ekkerhard: \"We've got two journalists in the studio, who are interested in the relationships between German women and American men married couples. First, we're going to listen to an interview they've conducted with Regina in Berlin. Now if I may introduce them, the first is Hildegard and for a long time she's worked for the S\u00fcddeutsche Zeitung here in Munich as a Reporter and also as an Editor. Her specialty, so to speak, is in psychological matters. Her sidekick, Monika, is a Germanistik student.</p>\n\n<p>Ekkerhard: \"So, what did you find out?\"</p>\n\n<p>Hildegard: \"Regina met her Man when he was a soldier stationed in Berlin. He helped her when she negligently ran her car out of gas.\"</p>\n\n<p>Monika: \"One of my colleagues developed this machine, which is really a type of computer that can tell us what our victim is actually thinking, therefore we receive accurate answers, instead of what they think we want to hear. The following is what we received from Regina's thoughts:\"</p>\n\n<p>\"I really do think that all American men are cowboys. It's really too bad John Wayne existed, but what can I do (to change that), nothing I guess. These two women are really annoying. The old bag on the left looks like a goat and smells worse. They'll never get anything out of me.</p>\n\n<p>Godlike voice: \"Is your life really so topsy-turvy.\"</p>\n\n<p>Regina's thoughts continue: \"Shit, they've posed another one of their disparaging questions... These electrodes are painful. Monika would be a satisfactory lover, if she \"really\" could be lesbian, but most of these young girls only have the courage to kiss another and not much more. I'd be more satisfied with Arthur if he didn't always behave like a such a cowboy. Whenever I ask him what he's going to do, I get the same answer. \"I'm stickin' to my guns girl, it's the code of the west.\" What the hell's that supposed to mean. He really is a victim of his passion. I should start smoking again. The kids are almost exclusively speaking English because of these blasted Disney films and I'm no longer part of the picture. The small time crook, who plays the great messiah could snuff Arthur, but I couldn't afford to pay him off. I guess I could pay with my body, but that'd be disgusting.</p>\n\n<p>Monika: \"Alright, that's it.\"</p>\n\n<p>Regina: \"That wasn't so bad, it went quicker than I thought it would.\"</p>\n\n<ul>\n<li>die Hinsicht, aspect</li>\n<li>gewohnt, familiar, accustomed</li>\n<li>der Redaktuer/die Redaktuerin, editor</li>\n<li>der Handlanger/die Handlangerin, sidekick</li>\n<li>tats\u00e4chlich, actually</li>\n<li>sozusagen, so to speak, as it were</li>\n<li>vorw\u00e4rts, onward, forward, ahead</li>\n<li>das Ger\u00e4t, device, implement, apparatus</li>\n<li>die alte Tasche, literally - the old bag</li>\n<li>die Ziege, goat</li>\n<li>merkw\u00fcrdigeliebe, Strangelove</li>\n<li>st\u00e4ndig, constantly</li>\n<li>die Z\u00e4rtlichkeit, endearment, fondness</li>\n<li>die Leidenschaft, passion, fervor</li>\n<li>der Ganove, crook, hood, racketeer</li>\n<li>der grosse Heilsbringer, the great messsiah</li>\n</ul>\n<h2>Commercial: Schlafsucht</h2>\n\n<p>Sleep is a drug that everyone is addicted to! It is the cause of more than 400,000 car accidents per year. \"Gro\u00dfen Augen\" is here to cure you of your sleep addiction.</p>\n\n<ul>\n<li>anerkannt, recognized</li>\n<li>die Schlafsucht, sleep addiction</li>\n<li>die Hauptursache, main cause</li>\n<li>verlorene, lost</li>\n<li>Fabriken, factories</li>\n<li>verantwortlich, responsible</li>\n<li>verschwenden, to waste</li>\n<li>Symptome des Entzugs, withdrawal symptoms</li>\n<li>h\u00e4ufigsten, most frequent</li>\n<li>offensichtlichsten, most obvious</li>\n<li>blutunterlaufene Augen, bloodshot eyes</li>\n<li>das Urteilsverm\u00f6gen, judgement</li>\n<li>beherrschen, to control</li>\n</ul>\n<h2>Commercial: Leica Camera</h2>\n\n<p>The new Leica SLR camera grants the highest possible quality in every aspect and in the use of the user. The Leica R9 is designed specifically to the needs of ambitious photographers. It follows the hitherto Leica philosophy that the camera can instinctively be used without removing it from the eye of the user. Also, the new camera back designed for the Leica R8 and R9 models can turn it into a digital camera, which makes it the first, and only, hybrid camera on the market today. Now you can take pictures in digital and analog in the familiar Leica quality you have grown to lust over.</p>\n\n<ul>\n<li>vielseitige, versatile</li>\n<li>Anwenders, users</li>\n<li>Bed\u00fcrfnissen, needs</li>\n<li>entwickeln, to develop</li>\n<li>bedienen, to operate</li>\n</ul>\n<h2>Cooking Show</h2>\n\n<p>A recipe for Chestnut Butter Soup. Ironically the edition is called \"Our Healthy German Kitchen\" but nothing about the recipe is savory let alone healthy.</p>\n\n<ul>\n<li>Ausgabe, edition</li>\n<li>Nebengericht, side dish</li>\n</ul>\n<h2>Sportminute</h2>\n\n<p>The latest scores from soccer. In Formula 1, Michael Schumacher had an accident, and is for the first time in his career in 18th place in the finals. In Table Tennis, Germany qualified for the Austrian Open, where they will play Hong Kong.</p>\n\n<ul>\n<li>Nachrichten, news</li>\n<li>Bundesliga, national league</li>\n<li>Tabellenspitze, top of the charts</li>\n<li>besiegen, to defeat</li>\n<li>rangiert, ranked</li>\n<li>achtbester, eighth best</li>\n<li>steigen, to rise</li>\n</ul>\n<h2>Mackie Messer</h2>\n\n<p>\"Mackie Messer\" (Mack the Knife) with Joel singing and Aaron on the accordion!</p>\n\n<p><script type=\"text/javascript\" src=\"https://aaronparecki.com/assets/player/audio-player.js\"></script><script type=\"text/javascript\" src=\"https://aaronparecki.com/assets/player/musicplayer.js\"></script><link rel=\"stylesheet\" type=\"text/css\" href=\"https://aaronparecki.com/assets/player/styles.css\"></p>\n",
+                        "value": "This German radio program was a group project of Aaron Parecki, Joel Young, Kirsten Arbogast, Jude Kirstein, and Viktoria Wensl\u00f6w during a German 311 course at the University of Oregon. We had a great time putting it together and presenting it, so I figured it deserved a place on the Internet. You can listen to the whole thing here. \n\n\n         \n        1 Introduction, Weather, Traffic1:14Click to play! \n2 News1:57Click to play! \n3 Commercial: Nutella0:48Click to play! \n4 Commercial: Flab Buster1:14Click to play! \n5 Interview: Karahasan2:07Click to play! \n6 Interview: Der Lebanese2:27Click to play! \n7 Regina3:17Click to play! \n8 Commercial: Schlafsucht1:24Click to play! \n9 Commercial: Leica Camera1:11Click to play! \n10 Cooking Show1:39Click to play! \n11 Sportminute1:41Click to play! \n12 Mackie Messer2:36Click to play! \n         \n         \n \n\nIntroduction, Weather, Traffic \n\nGood morning Bavaria. It's going to be a cloudy day, but don't give up hope immediately, we expect the sun to break thorough early this afternoon. All you commuters better perk your ears up, because coming up next is pertinent info to your drive. Our weather man is reporting from our helicopter. \"Are you there, Rolf?\" \"Yeah, I'm up here like a star in the sky.\" \"What do you have regarding the traffic?\" \"Just recently an traffic jam has built up on the south-bound lane of the Munich-Garmisch-Partenkirchen freeway. If I were you, I'd go somewhere else, if you're headin' south. Also, a terrible accident just occurred in downtown Munich. Three people have been hurt. The driver has both legs broken. The passenger suffers from pleurisy. The pedestrian they ran over fights for his life in the hospital. Hopefully his current one-foot-in-the-grave state won't last long. That's it, until later.\" \"Thanks Rolf, you're the king of your own world, we'll never be able to understand.\" \n\nunter bedecktem Himmel stehen, to be overcast outside; cloudy \nder Pendler, commuter \nder Hubschrauber, helicopter \nder Stau, traffic jam \ndie Rippenfellentz\u00fcndung, pluersy (difficulty breathing) \nder F\u00fcssg\u00e4nger, pedestrian \n News \n\nA new German beer claims that it slows down the aging process, either by drinking it or dabbing it on one's skin. Like any other beer, this one can lead to drunkenness and therefore also a hangover, due to it 4.8% alcohol content. Interestingly enough the production of this beer could be illegal under the oldest law in the world, which was made in 1516 and asserts that \"beer\" can only contain four ingredients: Hops, barley, yeast and water. This issue will be decided in a court of law and if it is found that it cannot be called beer, then they will have to label it as something else. As for whether or not it really does work as an anti-aging tonic, if the brew doesn't do anything when you dab it on your skin, you can always go the traditional route and use it to drown your sorrows. \n\nverlangsamen, to slow down \ndie Einleitung, introduction \navisiert sein, to be advised \ndas Gesetz, law \nder Prozess, trial \n Commercial: Nutella \n\nA commercial for Nutella. Two announcers believe they can do a serious commercial about Nutella but as they attempt to do so they get swept away into their fantasies about Nutella. \n\nMesser, knife \nsahnige, creamy \nsteichen, to spread \nSchicht, layer \n Commercial: Flab Buster \n\nA commercial for an electronic device that burns fat for you so you don't have to. \n\nabnehmen, to lose weight \ndas Gewicht, weight \nUltraschallimpulse, ultrasonic pulses \nbombardieren, to bombard \nder Staubsauger, vaccuum cleaner \nabsaugen, to suck off \nverursachen, to cause \ndie Testergebnisse, test results \nauftreten, to appear \nder Ausschlag, rash \n Interview: Karahasan \n\nThis is \"Poetry Time\" for the radio station, and the poet reading his poems today is the author of the story \"Heimat: Tiefer, gr\u00f6sser, weiter als wir selbst\". In this section we wanted to summarize the author's point of view as it came across in the story, but also capitalizing on the way he told it, VERY DRAMATICALLY. The poems he has supposedly written are very simple, yet extremely melodramatic. But even though it is meant to be funny, it still summarizes the author's actual feelings as told in his short story. The basic format is an announcer conducting a brief interview with a famous German poet, and is followed by the poet reading two poems of his homeland out loud. \n\nder Bach, stream \ndie Erinnerungen, memories \ndie Vergangenheit, past \ndie Gedichte, poems \nvorlesen, to read to \n Interview: Der Lebanese \n\nA reporter shows up on the scene to find a Lebanese man trying to move into his house but can't because a bookcase is standing before his doorway. The reporter asks the Lebanese man how he feels and to no surprise finds out that the Lebanese man feels unwelcome. To Herr Helmut it feels like his duty. The reporter realizes what he's saying and feels she needs to do something about it and so she decides to call all Germans together to literally embrace/hug all foreigners. The irony in this piece is that the reporter never gets to know the Lebanese Man's name and consistently refers to him as a foreigner or an outlandish person. She doesn't realize how unwelcoming she herself is. \n\nB\u00fcchershrank, bookcase \nbr\u00fcllt, screams \nWahrheit, truth \numarmen, to hug \n Regina \n\nEkkerhard: \"We've got two journalists in the studio, who are interested in the relationships between German women and American men married couples. First, we're going to listen to an interview they've conducted with Regina in Berlin. Now if I may introduce them, the first is Hildegard and for a long time she's worked for the S\u00fcddeutsche Zeitung here in Munich as a Reporter and also as an Editor. Her specialty, so to speak, is in psychological matters. Her sidekick, Monika, is a Germanistik student. \n\nEkkerhard: \"So, what did you find out?\" \n\nHildegard: \"Regina met her Man when he was a soldier stationed in Berlin. He helped her when she negligently ran her car out of gas.\" \n\nMonika: \"One of my colleagues developed this machine, which is really a type of computer that can tell us what our victim is actually thinking, therefore we receive accurate answers, instead of what they think we want to hear. The following is what we received from Regina's thoughts:\" \n\n\"I really do think that all American men are cowboys. It's really too bad John Wayne existed, but what can I do (to change that), nothing I guess. These two women are really annoying. The old bag on the left looks like a goat and smells worse. They'll never get anything out of me. \n\nGodlike voice: \"Is your life really so topsy-turvy.\" \n\nRegina's thoughts continue: \"Shit, they've posed another one of their disparaging questions... These electrodes are painful. Monika would be a satisfactory lover, if she \"really\" could be lesbian, but most of these young girls only have the courage to kiss another and not much more. I'd be more satisfied with Arthur if he didn't always behave like a such a cowboy. Whenever I ask him what he's going to do, I get the same answer. \"I'm stickin' to my guns girl, it's the code of the west.\" What the hell's that supposed to mean. He really is a victim of his passion. I should start smoking again. The kids are almost exclusively speaking English because of these blasted Disney films and I'm no longer part of the picture. The small time crook, who plays the great messiah could snuff Arthur, but I couldn't afford to pay him off. I guess I could pay with my body, but that'd be disgusting. \n\nMonika: \"Alright, that's it.\" \n\nRegina: \"That wasn't so bad, it went quicker than I thought it would.\" \n\ndie Hinsicht, aspect \ngewohnt, familiar, accustomed \nder Redaktuer/die Redaktuerin, editor \nder Handlanger/die Handlangerin, sidekick \ntats\u00e4chlich, actually \nsozusagen, so to speak, as it were \nvorw\u00e4rts, onward, forward, ahead \ndas Ger\u00e4t, device, implement, apparatus \ndie alte Tasche, literally - the old bag \ndie Ziege, goat \nmerkw\u00fcrdigeliebe, Strangelove \nst\u00e4ndig, constantly \ndie Z\u00e4rtlichkeit, endearment, fondness \ndie Leidenschaft, passion, fervor \nder Ganove, crook, hood, racketeer \nder grosse Heilsbringer, the great messsiah \n Commercial: Schlafsucht \n\nSleep is a drug that everyone is addicted to! It is the cause of more than 400,000 car accidents per year. \"Gro\u00dfen Augen\" is here to cure you of your sleep addiction. \n\nanerkannt, recognized \ndie Schlafsucht, sleep addiction \ndie Hauptursache, main cause \nverlorene, lost \nFabriken, factories \nverantwortlich, responsible \nverschwenden, to waste \nSymptome des Entzugs, withdrawal symptoms \nh\u00e4ufigsten, most frequent \noffensichtlichsten, most obvious \nblutunterlaufene Augen, bloodshot eyes \ndas Urteilsverm\u00f6gen, judgement \nbeherrschen, to control \n Commercial: Leica Camera \n\nThe new Leica SLR camera grants the highest possible quality in every aspect and in the use of the user. The Leica R9 is designed specifically to the needs of ambitious photographers. It follows the hitherto Leica philosophy that the camera can instinctively be used without removing it from the eye of the user. Also, the new camera back designed for the Leica R8 and R9 models can turn it into a digital camera, which makes it the first, and only, hybrid camera on the market today. Now you can take pictures in digital and analog in the familiar Leica quality you have grown to lust over. \n\nvielseitige, versatile \nAnwenders, users \nBed\u00fcrfnissen, needs \nentwickeln, to develop \nbedienen, to operate \n Cooking Show \n\nA recipe for Chestnut Butter Soup. Ironically the edition is called \"Our Healthy German Kitchen\" but nothing about the recipe is savory let alone healthy. \n\nAusgabe, edition \nNebengericht, side dish \n Sportminute \n\nThe latest scores from soccer. In Formula 1, Michael Schumacher had an accident, and is for the first time in his career in 18th place in the finals. In Table Tennis, Germany qualified for the Austrian Open, where they will play Hong Kong. \n\nNachrichten, news \nBundesliga, national league \nTabellenspitze, top of the charts \nbesiegen, to defeat \nrangiert, ranked \nachtbester, eighth best \nsteigen, to rise \n Mackie Messer \n\n\"Mackie Messer\" (Mack the Knife) with Joel singing and Aaron on the accordion!"
+                    }
+                ]
+            }
+        },
+        {
+            "type": [
+                "h-card"
+            ],
+            "properties": {
+                "org": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "oauth.net"
+                            ],
+                            "url": [
+                                "https://oauth.net/"
+                            ]
+                        },
+                        "value": "oauth.net"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "role": [
+                                "Founder"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/indiewebcamp.png"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "W3C"
+                            ],
+                            "role": [
+                                "Editor"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/w3c.png"
+                            ],
+                            "url": [
+                                "https://www.w3.org/"
+                            ]
+                        },
+                        "value": "W3C"
+                    }
+                ],
+                "note": [
+                    "Hi, I'm Aaron Parecki,  co-founder of\nIndieWebCamp.\nI maintain oauth.net, write and consult about OAuth, and\nam the editor of the W3C Webmention and Micropub specifications, and co-editor of WebSub. \n\nI wrote 100 songs in 100 days! I've been tracking my location since 2008,\nand write down everything I eat and drink.\nI've spoken at conferences around the world about\nowning your data,\nOAuth,\nquantified self,\nand explained why R is a vowel."
+                ],
+                "name": [
+                    "Aaron Parecki"
+                ],
+                "callsign": [
+                    "W7APK"
+                ],
+                "url": [
+                    "https://aaronparecki.com/",
+                    "https://w7apk.com"
+                ],
+                "uid": [
+                    "https://aaronparecki.com/"
+                ],
+                "photo": [
+                    "https://aaronparecki.com/images/profile.jpg"
+                ],
+                "bday": [
+                    "--12-28"
+                ]
+            }
+        }
+    ],
+    "rels": {
+        "webmention": [
+            "https://webmention.io/aaronpk/webmention"
+        ],
+        "openid.delegate": [
+            "https://aaronparecki.com/"
+        ],
+        "openid.server": [
+            "https://openid.indieauth.com/openid"
+        ],
+        "authorization_endpoint": [
+            "https://aaronparecki.com/auth"
+        ],
+        "token_endpoint": [
+            "https://aaronparecki.com/auth/token"
+        ],
+        "micropub": [
+            "https://aaronparecki.com/micropub"
+        ],
+        "stylesheet": [
+            "https://aaronparecki.com/semantic/2.2.6/semantic.min.css",
+            "https://aaronparecki.com/assets/icomoon/style.css",
+            "https://aaronparecki.com/assets/weather-icons/css/weather-icons.css",
+            "https://aaronparecki.com/assets/featherlight-1.5.0/featherlight.min.css",
+            "https://aaronparecki.com/assets/admin.css",
+            "https://aaronparecki.com/assets/pulse.css",
+            "https://aaronparecki.com/assets/styles.css",
+            "https://aaronparecki.com/site/styles.css",
+            "https://aaronparecki.com/assets/carbon.css",
+            "https://chat.pin13.net/chat.css",
+            "https://aaronparecki.com/assets/player/styles.css"
+        ],
+        "pgpkey": [
+            "https://aaronparecki.com/key.txt"
+        ],
+        "me": [
+            "sms:+15035678642",
+            "https://micro.blog/aaronpk"
+        ],
+        "license": [
+            "http://creativecommons.org/licenses/by/3.0/"
+        ]
+    },
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}

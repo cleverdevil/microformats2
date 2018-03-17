@@ -1,0 +1,187 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "name": [
+                    "@dybskiy @skjain2 @oscargodson @helloerica Guess you guys are right! I'll try that next time. Have you heard of anybody actually doing that?"
+                ],
+                "in-reply-to": [
+                    "https://twitter.com/dybskiy/status/326063595332984832",
+                    "https://twitter.com/skjain2/status/326063776510144514",
+                    "https://twitter.com/oscargodson/status/326063992047034368",
+                    "https://twitter.com/helloerica/status/326064591417274368"
+                ],
+                "url": [
+                    "https://aaronparecki.com/2013/04/21/3/"
+                ],
+                "syndication": [
+                    "https://twitter.com/aaronpk/status/326065365589311490"
+                ],
+                "author": [
+                    "https://aaronparecki.com/"
+                ],
+                "published": [
+                    "2013-04-21T13:10:15-07:00"
+                ],
+                "content": [
+                    {
+                        "html": "<a href=\"https://twitter.com/dybskiy\">@dybskiy</a> <a href=\"https://twitter.com/skjain2\">@skjain2</a> <a href=\"https://twitter.com/oscargodson\">@oscargodson</a> <a href=\"https://twitter.com/helloerica\">@helloerica</a> Guess you guys are right! I'll try that next time. Have you heard of anybody actually doing that?",
+                        "value": "@dybskiy @skjain2 @oscargodson @helloerica Guess you guys are right! I'll try that next time. Have you heard of anybody actually doing that?"
+                    }
+                ]
+            }
+        },
+        {
+            "type": [
+                "h-card"
+            ],
+            "properties": {
+                "org": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "oauth.net"
+                            ],
+                            "url": [
+                                "https://oauth.net/"
+                            ]
+                        },
+                        "value": "oauth.net"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "role": [
+                                "Founder"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/indiewebcamp.png"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "W3C"
+                            ],
+                            "role": [
+                                "Editor"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/w3c.png"
+                            ],
+                            "url": [
+                                "https://www.w3.org/"
+                            ]
+                        },
+                        "value": "W3C"
+                    }
+                ],
+                "note": [
+                    "Hi, I'm Aaron Parecki,  co-founder of\nIndieWebCamp.\nI maintain oauth.net, write and consult about OAuth, and\nam the editor of the W3C Webmention and Micropub specifications, and co-editor of WebSub. \n\nI wrote 100 songs in 100 days! I've been tracking my location since 2008,\nand write down everything I eat and drink.\nI've spoken at conferences around the world about\nowning your data,\nOAuth,\nquantified self,\nand explained why R is a vowel."
+                ],
+                "name": [
+                    "Aaron Parecki"
+                ],
+                "callsign": [
+                    "W7APK"
+                ],
+                "url": [
+                    "https://aaronparecki.com/",
+                    "https://w7apk.com"
+                ],
+                "uid": [
+                    "https://aaronparecki.com/"
+                ],
+                "photo": [
+                    "https://aaronparecki.com/images/profile.jpg"
+                ],
+                "bday": [
+                    "--12-28"
+                ]
+            }
+        }
+    ],
+    "rels": {
+        "webmention": [
+            "https://webmention.io/aaronpk/webmention"
+        ],
+        "openid.delegate": [
+            "https://aaronparecki.com/"
+        ],
+        "openid.server": [
+            "https://openid.indieauth.com/openid"
+        ],
+        "authorization_endpoint": [
+            "https://aaronparecki.com/auth"
+        ],
+        "token_endpoint": [
+            "https://aaronparecki.com/auth/token"
+        ],
+        "micropub": [
+            "https://aaronparecki.com/micropub"
+        ],
+        "stylesheet": [
+            "https://aaronparecki.com/semantic/2.2.6/semantic.min.css",
+            "https://aaronparecki.com/assets/icomoon/style.css",
+            "https://aaronparecki.com/assets/weather-icons/css/weather-icons.css",
+            "https://aaronparecki.com/assets/featherlight-1.5.0/featherlight.min.css",
+            "https://aaronparecki.com/assets/admin.css",
+            "https://aaronparecki.com/assets/pulse.css",
+            "https://aaronparecki.com/assets/styles.css",
+            "https://aaronparecki.com/site/styles.css",
+            "https://aaronparecki.com/assets/carbon.css",
+            "https://chat.pin13.net/chat.css"
+        ],
+        "pgpkey": [
+            "https://aaronparecki.com/key.txt"
+        ],
+        "me": [
+            "sms:+15035678642",
+            "https://micro.blog/aaronpk"
+        ],
+        "license": [
+            "http://creativecommons.org/licenses/by/3.0/"
+        ]
+    },
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}

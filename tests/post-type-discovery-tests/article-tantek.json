@@ -1,0 +1,86 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "author": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "Tantek \u00c7elik"
+                            ],
+                            "photo": [
+                                "http://tantek.com/logo.jpg"
+                            ],
+                            "url": [
+                                "http://tantek.com/"
+                            ]
+                        },
+                        "value": "Tantek \u00c7elik"
+                    }
+                ],
+                "name": [
+                    "Bringing Back The Blog"
+                ],
+                "url": [
+                    "http://tantek.com/2010/231/b1/bringing-back-the-blog"
+                ],
+                "uid": [
+                    "http://tantek.com/2010/231/b1/bringing-back-the-blog"
+                ],
+                "syndication": [
+                    "http://twitter.com/t/status/21599383183"
+                ],
+                "published": [
+                    "2010-08-19T11:21-0700"
+                ],
+                "updated": [
+                    "2010-08-19T11:21-0700"
+                ],
+                "content": [
+                    {
+                        "html": "\n<p>\n8 years ago this month I <a href=\"http://tantek.com/log/2002/08.html#L20020808\">started blogging</a> my thoughts on tantek.com. That lasted just 6 years; there was no <q cite=\"http://tantek.com/log/2008/08.html#d08t1923\"><a href=\"http://tantek.com/log/2008/08.html#d08t1923\">seventh year of blogging</a></q>.\n</p>\n<p>\nI continued publicly posting to <a href=\"http://twitter.com/t\">Twitter</a>, Pownce (moment of silence), <a href=\"http://flic.kr/tantek\">Flickr</a> (currently 7 months behind), <a href=\"http://tantek.pbworks.com/\">my PBWiki</a>, and comments on others' blogs. But it wasn't the same. I had gone from owning (most of) my content, to <a href=\"http://www.codinghorror.com/blog/2009/08/are-you-a-digital-sharecropper.html\">digital sharecropping</a>.\n</p>\n<p>\nThe past two years I watched <a href=\"http://waxy.org/2008/02/cnets_consumati/\">lifechanging</a>, <a href=\"http://pownce.com/\">brilliant</a>, and some <a href=\"http://geocities.com/\">longlived</a> sites get <a href=\"http://adactio.com/journal/1621/\">killed</a> by <a href=\"http://googlecode.blogspot.com/2009/01/changes-for-jaiku-and-farewell-to.html\">owners</a> that <a href=\"http://etherpad.com/transition.html\">knew not</a> what they had, or just <a href=\"http://tr.im/\">gave up</a>. Even <a href=\"http://twitter.com/\">Twitter</a>, one of my favorites, was <a href=\"http://www.flickr.com/photos/factoryjoe/3927590515/\">unreliable enough</a>, often enough, to be frustrating. \n</p>\n<p>\nLast year I told myself <em>this</em> year would be different. Among personal struggles perhaps I'll recount someday, I thought about how <em>should</em> personal publishing work? How did <em>I</em> want it to work?\n</p>\n<p>\nInspired by the <a href=\"http://status.net/\">works of others</a>, yet focused on scratching my own itch, I finally built <a href=\"http://tantek.com/w/Falcon\">Falcon</a> and <a href=\"http://tantek.com/2010/026/t2/tweeting-from-tantek-com\">launched it</a> on tantek.com this past January (using the open source <a href=\"http://cassisproject.com\">CASSIS</a> language/framework), and subsequently  conceptualized my thoughts on <a href=\"http://tantek.com/2010/034/t2/diso-2-personal-domains-shortener-hatom-push-relmeauth\">the future of independent publishing</a>.\n</p>\n<p>\nEncouraged by the energy, enthusiasm, and optimism of the implementers at the <a href=\"http://federatedsocialweb.net/wiki/Federated_Social_Web_Summit_2010\">Federated Social Web Summit</a> (<a href=\"http://federatedsocialweb.net/wiki/2010-199-tantek-fsws-talk\">presentation</a>) a month ago, I decided little text notes were not enough, it was time to rebuild my blog.\n</p>\n<p>\nIt's simple, it's undesigned, and it's got plenty that can be improved.  But I can now write posts, have Falcon show them on my <a href=\"http://tantek.com\">home page</a> and their own <a href=\"http://tantek.com/2010/231/b1/bringing-back-the-blog\">permalink</a> pages, <a href=\"http://pubsubhubbub.googlecode.com/\">PuSH</a> them with a multi-object-type <a href=\"http://activitystrea.ms/\">Activity Stream</a> to realtime subscribers, and snowflake syndicate them to <a href=\"http://twitter.com/t\">Twitter</a>.\n</p>\n<p>\nIt's a start.\n</p>\n",
+                        "value": "8 years ago this month I started blogging my thoughts on tantek.com. That lasted just 6 years; there was no seventh year of blogging.\n \nI continued publicly posting to Twitter, Pownce (moment of silence), Flickr (currently 7 months behind), my PBWiki, and comments on others' blogs. But it wasn't the same. I had gone from owning (most of) my content, to digital sharecropping.\n \nThe past two years I watched lifechanging, brilliant, and some longlived sites get killed by owners that knew not what they had, or just gave up. Even Twitter, one of my favorites, was unreliable enough, often enough, to be frustrating. \n \nLast year I told myself this year would be different. Among personal struggles perhaps I'll recount someday, I thought about how should personal publishing work? How did I want it to work?\n \nInspired by the works of others, yet focused on scratching my own itch, I finally built Falcon and launched it on tantek.com this past January (using the open source CASSIS language/framework), and subsequently  conceptualized my thoughts on the future of independent publishing.\n \nEncouraged by the energy, enthusiasm, and optimism of the implementers at the Federated Social Web Summit (presentation) a month ago, I decided little text notes were not enough, it was time to rebuild my blog.\n \nIt's simple, it's undesigned, and it's got plenty that can be improved.  But I can now write posts, have Falcon show them on my home page and their own permalink pages, PuSH them with a multi-object-type Activity Stream to realtime subscribers, and snowflake syndicate them to Twitter.\n \nIt's a start."
+                    }
+                ]
+            }
+        }
+    ],
+    "rels": {
+        "icon": [
+            "http://tantek.com/logo.jpg"
+        ],
+        "webmention": [
+            "http://webmention.io/tantek.com/webmention"
+        ],
+        "author": [
+            "http://tantek.com/",
+            "http://tantek.com/"
+        ],
+        "home": [
+            "http://tantek.com/"
+        ],
+        "prev": [
+            "http://tantek.com/2010/231/t1/falcon-blog-posts-coded-tested-ownyourdata"
+        ],
+        "next": [
+            "http://tantek.com/2010/231/t2/rsvping-openwebfoo"
+        ],
+        "syndication": [
+            "http://twitter.com/t/status/21599383183"
+        ]
+    },
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "author": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "Shane Becker"
+                            ],
+                            "url": [
+                                "https://veganstraightedge.com/",
+                                "https://veganstraightedge.com/"
+                            ],
+                            "photo": [
+                                "https://veganstraightedge.com/photo.svg"
+                            ]
+                        },
+                        "value": "Shane Becker"
+                    }
+                ],
+                "name": [
+                    "Backyard squirrel buddy."
+                ],
+                "dm-title": [
+                    "Backyard squirrel buddy."
+                ],
+                "summary": [
+                    ""
+                ],
+                "x-post-type": [
+                    "video"
+                ],
+                "category": [
+                    "imported:from=vine.co"
+                ],
+                "url": [
+                    "https://veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy",
+                    "https://veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy"
+                ],
+                "uid": [
+                    "https://veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy",
+                    "https://veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy"
+                ],
+                "featured": [
+                    "http://assets.veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy.png"
+                ],
+                "video": [
+                    "http://assets.veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy.mp4"
+                ],
+                "photo": [
+                    "http://assets.veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy.png\""
+                ],
+                "x-enclosure": [
+                    "http://assets.veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy.mp4"
+                ],
+                "published": [
+                    "2013-05-31T10:35:31Z"
+                ],
+                "content": [
+                    {
+                        "html": "\n  <video controls width=\"480\" height=\"480\" poster=\"http://assets.veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy.png\" class=\"u-featured\"><source src=\"http://assets.veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy.mp4\" class=\"u-video\"></source><img src=\"http://assets.veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy.png%22\" class=\"u-photo\"></video><div class=\"p-summary\">\n    <p></p>\n  </div>\n\n  <p class=\"download\">\n    <a class=\"u-x-enclosure\" href=\"http://assets.veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy.mp4\">Download video</a>\n  </p>\n",
+                        "value": "http://assets.veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy.png\"\n     \n   \n\n  \n    Download video"
+                    }
+                ]
+            }
+        },
+        {
+            "type": [
+                "h-card"
+            ],
+            "properties": {
+                "name": [
+                    "Shane Becker"
+                ],
+                "url": [
+                    "https://veganstraightedge.com/",
+                    "https://veganstraightedge.com/",
+                    "http://h2vx.com/vcf/veganstraightedge.com",
+                    "https://dribbble.com/veganstraightedge",
+                    "https://www.facebook.com/veganstraightedge",
+                    "http://www.flickr.com/people/veganstraightedge",
+                    "https://foursquare.com/veganstraightedge",
+                    "https://github.com/veganstraightedge",
+                    "http://instagram.com/veganstraightedge",
+                    "http://last.fm/user/vegansxe",
+                    "https://twitter.com/veganstraightedge",
+                    "http://vimeo.com/veganstraightedge",
+                    "http://youtube.com/user/veganstraightedge"
+                ],
+                "photo": [
+                    "https://veganstraightedge.com/photo.svg"
+                ],
+                "tel": [
+                    "tel://8018989481"
+                ],
+                "email": [
+                    "mailto:veganstraightedge@gmail.com"
+                ]
+            }
+        }
+    ],
+    "rels": {
+        "canonical": [
+            "http://veganstraightedge.com/videos/2013/05/31/backyard-squirrel-buddy"
+        ],
+        "pgpkey": [
+            "https://veganstraightedge.com/key.pub"
+        ],
+        "shortcut": [
+            "http://assets.veganstraightedge.com/images/favicon.ico"
+        ],
+        "icon": [
+            "http://assets.veganstraightedge.com/images/favicon.ico",
+            "http://assets.veganstraightedge.com/images/touch-icon-192x192.png"
+        ],
+        "apple-touch-icon": [
+            "http://assets.veganstraightedge.com/images/apple-touch-icon-precomposed.png",
+            "http://assets.veganstraightedge.com/images/apple-touch-icon-60x60-precomposed.png",
+            "http://assets.veganstraightedge.com/images/apple-touch-icon-72x72-precomposed.png",
+            "http://assets.veganstraightedge.com/images/apple-touch-icon-76x76-precomposed.png",
+            "http://assets.veganstraightedge.com/images/apple-touch-icon-114x114-precomposed.png",
+            "http://assets.veganstraightedge.com/images/apple-touch-icon-120x120-precomposed.png",
+            "http://assets.veganstraightedge.com/images/apple-touch-icon-144x144-precomposed.png",
+            "http://assets.veganstraightedge.com/images/apple-touch-icon-152x152-precomposed.png",
+            "http://assets.veganstraightedge.com/images/apple-touch-icon-180x180-precomposed.png"
+        ],
+        "stylesheet": [
+            "https://veganstraightedge.com/assets/application-d33f614c622edeb700c0fd6b1c29ab23b13fd33309b3f8b7c50adc3fbb74b4e0.css"
+        ],
+        "home": [
+            "https://veganstraightedge.com/",
+            "https://veganstraightedge.com/",
+            "https://veganstraightedge.com/",
+            "https://veganstraightedge.com/"
+        ],
+        "me": [
+            "https://veganstraightedge.com/",
+            "https://dribbble.com/veganstraightedge",
+            "https://www.facebook.com/veganstraightedge",
+            "http://www.flickr.com/people/veganstraightedge",
+            "https://foursquare.com/veganstraightedge",
+            "https://github.com/veganstraightedge",
+            "http://instagram.com/veganstraightedge",
+            "http://last.fm/user/vegansxe",
+            "https://twitter.com/veganstraightedge",
+            "http://vimeo.com/veganstraightedge",
+            "http://youtube.com/user/veganstraightedge"
+        ],
+        "tag": [
+            "https://veganstraightedge.com/tags/imported:from=vine-co"
+        ],
+        "license": [
+            "http://creativecommons.org/licenses/by/4.0/"
+        ]
+    },
+    "alternates": [
+        {
+            "url": "https://veganstraightedge.com/feed",
+            "rel": "",
+            "title": "Shane Becker",
+            "type": "application/atom+xml"
+        }
+    ],
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}

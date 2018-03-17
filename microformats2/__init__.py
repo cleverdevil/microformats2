@@ -1,8 +1,9 @@
 import jsonschema
 
 from .schema import Microformat, MicroformatsDocument
+from .discovery import get_post_type, PostTypes
 
-__all__ = ['validate', 'schema_for']
+__all__ = ['validate', 'schema_for', 'get_post_type', 'PostTypes']
 
 
 def schema_for(type):

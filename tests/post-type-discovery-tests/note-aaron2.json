@@ -1,0 +1,764 @@
+{
+    "items": [
+        {
+            "type": [
+                "h-entry"
+            ],
+            "properties": {
+                "location": [
+                    {
+                        "type": [
+                            "h-adr"
+                        ],
+                        "properties": {
+                            "locality": [
+                                "Portland"
+                            ],
+                            "region": [
+                                "Oregon"
+                            ],
+                            "country": [
+                                "USA"
+                            ],
+                            "latitude": [
+                                "45.55488"
+                            ],
+                            "longitude": [
+                                "-122.68202"
+                            ],
+                            "name": [
+                                "Portland,\n        Oregon,\n        USA"
+                            ]
+                        },
+                        "value": "Portland,\n        Oregon,\n        USA"
+                    }
+                ],
+                "like": [
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "nahbois"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/3133d790cbaf037424348bf80f30026e2e8fb382bcda8b25d868901a99414ac4.jpg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/nahbois"
+                                        ]
+                                    },
+                                    "value": "nahbois"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-16260229"
+                            ],
+                            "name": [
+                                "nahbois"
+                            ]
+                        },
+                        "value": "nahbois"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Julien Genestoux"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/1c4eefaae056b2962c2038838168f28ddd447dc4bffdee800db75387db4a8914.jpeg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/julien51"
+                                        ]
+                                    },
+                                    "value": "Julien Genestoux"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-5381582"
+                            ],
+                            "name": [
+                                "Julien Genestoux"
+                            ]
+                        },
+                        "value": "Julien Genestoux"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Shane Becker"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/ff8865c08331abfd4bdeef5505069a2c73a03d5b16f470a9da4bf901ff6cc258.png"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/veganstraightedge"
+                                        ]
+                                    },
+                                    "value": "Shane Becker"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-641013"
+                            ],
+                            "name": [
+                                "Shane Becker"
+                            ]
+                        },
+                        "value": "Shane Becker"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Sean Wiese"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/7128d0335b8a0b3f1a0b070d9502a68047e4956b0896b2e68741bfcd80cb535c.jpeg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/dswiese"
+                                        ]
+                                    },
+                                    "value": "Sean Wiese"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-12466762"
+                            ],
+                            "name": [
+                                "Sean Wiese"
+                            ]
+                        },
+                        "value": "Sean Wiese"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "TomWithTheWeather"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/ce4f2f04b015ad5bd826584ceac5e6dbf0c8c1b9be2bdce80df7bc7a1d83bdcd.jpeg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/tomwiththeweath"
+                                        ]
+                                    },
+                                    "value": "TomWithTheWeather"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-961661"
+                            ],
+                            "name": [
+                                "TomWithTheWeather"
+                            ]
+                        },
+                        "value": "TomWithTheWeather"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Mele \ud83d\ude44 \ud83d\udcbb"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/b0ff7bfae7d867db5e475db22348889b8a3d678e2ced837f635b1b619f5e7326.jpg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/pdxmele"
+                                        ]
+                                    },
+                                    "value": "Mele \ud83d\ude44 \ud83d\udcbb"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-141771323"
+                            ],
+                            "name": [
+                                "Mele \ud83d\ude44 \ud83d\udcbb"
+                            ]
+                        },
+                        "value": "Mele \ud83d\ude44 \ud83d\udcbb"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Andrew"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/b52f10a9f000253f87c3849668a786dbaed9709ef89d1294e933bec404c26051.jpeg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/dalglsh"
+                                        ]
+                                    },
+                                    "value": "Andrew"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-14303647"
+                            ],
+                            "name": [
+                                "Andrew"
+                            ]
+                        },
+                        "value": "Andrew"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Joel Purra"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/33e14bc2eff5caae419d9a852891106d3b5888e7b87c849211a2ac35764cb0f1.jpg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/joelpurra"
+                                        ]
+                                    },
+                                    "value": "Joel Purra"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-203610224"
+                            ],
+                            "name": [
+                                "Joel Purra"
+                            ]
+                        },
+                        "value": "Joel Purra"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Mitch Kiah"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/c1cc85a977eeeaaa040d479de4945ef5e963e86b39203ce2984086385d1d7400.jpg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/MitchKiah"
+                                        ]
+                                    },
+                                    "value": "Mitch Kiah"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-872328169935843329"
+                            ],
+                            "name": [
+                                "Mitch Kiah"
+                            ]
+                        },
+                        "value": "Mitch Kiah"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Paint My Boat"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/66faa62146e1419422a65d704efb76c37065b9dc81699e245fd3ab5bf54e41b8.png"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/PMyB"
+                                        ]
+                                    },
+                                    "value": "Paint My Boat"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/aaronpk/status/880965166799519748#favorited-by-31983245"
+                            ],
+                            "name": [
+                                "Paint My Boat"
+                            ]
+                        },
+                        "value": "Paint My Boat"
+                    }
+                ],
+                "repost": [
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Rob Schoening"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/2ad4e0c1a4bbdb6fee1ea1a92e039d21f285142fd5d027c6ebd404ecba7a06eb.jpg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/rschoening"
+                                        ]
+                                    },
+                                    "value": "Rob Schoening"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/rschoening/status/880991341626273794"
+                            ],
+                            "name": [
+                                "Rob Schoening"
+                            ]
+                        },
+                        "value": "Rob Schoening"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Andrew Jacobs"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/www.funwhilelost.com/de8faa65e1539a0970bce9cab66e0de3973289241990c1bc955813083810df6f.jpg"
+                                        ],
+                                        "url": [
+                                            "http://www.funwhilelost.com/profile/funwhilelost"
+                                        ]
+                                    },
+                                    "value": "Andrew Jacobs"
+                                }
+                            ],
+                            "url": [
+                                "http://www.funwhilelost.com/2017/repost-of-aaron-pareckis-post-on-aaronpareckicom-fa58ce8442"
+                            ],
+                            "name": [
+                                "Andrew Jacobs"
+                            ]
+                        },
+                        "value": "Andrew Jacobs"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Andrew Jacobs"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/www.funwhilelost.com/de8faa65e1539a0970bce9cab66e0de3973289241990c1bc955813083810df6f.jpg"
+                                        ],
+                                        "url": [
+                                            "https://www.funwhilelost.com/profile/funwhilelost"
+                                        ]
+                                    },
+                                    "value": "Andrew Jacobs"
+                                }
+                            ],
+                            "url": [
+                                "https://www.funwhilelost.com/2017/repost-of-aaron-pareckis-post-on-aaronpareckicom-fa58ce8442"
+                            ],
+                            "name": [
+                                "Andrew Jacobs"
+                            ]
+                        },
+                        "value": "Andrew Jacobs"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Amy MacKinnon"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/27d1969974be29f5887ed96999e2ba60c9226d80738d9894d98f53ce301a84f8.jpeg"
+                                        ],
+                                        "url": [
+                                            "http://amy-mac.com"
+                                        ]
+                                    },
+                                    "value": "Amy MacKinnon"
+                                }
+                            ],
+                            "url": [
+                                "https://twitter.com/ThatAmyMac/status/881572717136236544"
+                            ],
+                            "name": [
+                                "Amy MacKinnon"
+                            ]
+                        },
+                        "value": "Amy MacKinnon"
+                    }
+                ],
+                "comment": [
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Andy Baio"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/d47673417b019bdbc0f6fb21fc7a57c1e3c3fd941bb1cbeeedd4ac4dd4252995.png"
+                                        ],
+                                        "url": [
+                                            "http://waxy.org/"
+                                        ]
+                                    },
+                                    "value": "Andy Baio"
+                                }
+                            ],
+                            "name": [
+                                "well, they're old NOW"
+                            ],
+                            "url": [
+                                "https://twitter.com/waxpancake/status/880982978611912706"
+                            ],
+                            "published": [
+                                "2017-07-01T02:54:44+00:00"
+                            ],
+                            "content": [
+                                {
+                                    "html": "well, they're old NOW",
+                                    "value": "well, they're old NOW"
+                                }
+                            ]
+                        },
+                        "value": "well, they're old NOW"
+                    },
+                    {
+                        "type": [
+                            "h-cite"
+                        ],
+                        "properties": {
+                            "author": [
+                                {
+                                    "type": [
+                                        "h-card"
+                                    ],
+                                    "properties": {
+                                        "name": [
+                                            "Torgie Madison"
+                                        ],
+                                        "photo": [
+                                            "https://s3-us-west-2.amazonaws.com/aaronparecki.com/pbs.twimg.com/bbe35a62c0425df2cbe0d2f9c1a7133cea05ded16557398a69b1e0ae71325594.jpg"
+                                        ],
+                                        "url": [
+                                            "https://twitter.com/torgie"
+                                        ]
+                                    },
+                                    "value": "Torgie Madison"
+                                }
+                            ],
+                            "name": [
+                                "Implied: if you used angelfire, you aren't old. Yusss"
+                            ],
+                            "url": [
+                                "https://twitter.com/torgie/status/881053452192817153"
+                            ],
+                            "published": [
+                                "2017-07-01T07:34:46+00:00"
+                            ],
+                            "content": [
+                                {
+                                    "html": "Implied: if you used angelfire, you aren't old. Yusss",
+                                    "value": "Implied: if you used angelfire, you aren't old. Yusss"
+                                }
+                            ]
+                        },
+                        "value": "Implied: if you used angelfire, you aren't old. Yusss"
+                    }
+                ],
+                "name": [
+                    "OH: \"Geocities? I don't really know what that is. I just know that old people used it.\" \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d"
+                ],
+                "category": [
+                    "indieweb"
+                ],
+                "url": [
+                    "https://aaronparecki.com/2017/06/30/24/indieweb"
+                ],
+                "syndication": [
+                    "https://twitter.com/aaronpk/status/880965166799519748"
+                ],
+                "author": [
+                    "https://aaronparecki.com/"
+                ],
+                "published": [
+                    "2017-06-30T18:43:54-07:00"
+                ],
+                "content": [
+                    {
+                        "html": "OH: \"Geocities? I don't really know what that is. I just know that old people used it.\" <a href=\"https://aaronparecki.com/emoji/%F0%9F%98%AD\" class=\"emoji\">\ud83d\ude2d</a><a href=\"https://aaronparecki.com/emoji/%F0%9F%98%AD\" class=\"emoji\">\ud83d\ude2d</a><a href=\"https://aaronparecki.com/emoji/%F0%9F%98%AD\" class=\"emoji\">\ud83d\ude2d</a>",
+                        "value": "OH: \"Geocities? I don't really know what that is. I just know that old people used it.\" \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d"
+                    }
+                ]
+            }
+        },
+        {
+            "type": [
+                "h-card"
+            ],
+            "properties": {
+                "org": [
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "oauth.net"
+                            ],
+                            "url": [
+                                "https://oauth.net/"
+                            ]
+                        },
+                        "value": "oauth.net"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "IndieWebCamp"
+                            ],
+                            "role": [
+                                "Founder"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/indiewebcamp.png"
+                            ],
+                            "url": [
+                                "https://indieweb.org/"
+                            ]
+                        },
+                        "value": "IndieWebCamp"
+                    },
+                    {
+                        "type": [
+                            "h-card"
+                        ],
+                        "properties": {
+                            "name": [
+                                "W3C"
+                            ],
+                            "role": [
+                                "Editor"
+                            ],
+                            "photo": [
+                                "https://aaronparecki.com/images/w3c.png"
+                            ],
+                            "url": [
+                                "https://www.w3.org/"
+                            ]
+                        },
+                        "value": "W3C"
+                    }
+                ],
+                "note": [
+                    "Hi, I'm Aaron Parecki,  co-founder of\nIndieWebCamp.\nI maintain oauth.net, write and consult about OAuth, and\nam the editor of the W3C Webmention and Micropub specifications, and co-editor of WebSub. \n\nI wrote 100 songs in 100 days! I've been tracking my location since 2008,\nand write down everything I eat and drink.\nI've spoken at conferences around the world about\nowning your data,\nOAuth,\nquantified self,\nand explained why R is a vowel."
+                ],
+                "name": [
+                    "Aaron Parecki"
+                ],
+                "callsign": [
+                    "W7APK"
+                ],
+                "url": [
+                    "https://aaronparecki.com/",
+                    "https://w7apk.com"
+                ],
+                "uid": [
+                    "https://aaronparecki.com/"
+                ],
+                "photo": [
+                    "https://aaronparecki.com/images/profile.jpg"
+                ],
+                "bday": [
+                    "--12-28"
+                ]
+            }
+        }
+    ],
+    "rels": {
+        "webmention": [
+            "https://webmention.io/aaronpk/webmention"
+        ],
+        "openid.delegate": [
+            "https://aaronparecki.com/"
+        ],
+        "openid.server": [
+            "https://openid.indieauth.com/openid"
+        ],
+        "authorization_endpoint": [
+            "https://aaronparecki.com/auth"
+        ],
+        "token_endpoint": [
+            "https://aaronparecki.com/auth/token"
+        ],
+        "micropub": [
+            "https://aaronparecki.com/micropub"
+        ],
+        "stylesheet": [
+            "https://aaronparecki.com/semantic/2.2.6/semantic.min.css",
+            "https://aaronparecki.com/assets/icomoon/style.css",
+            "https://aaronparecki.com/assets/weather-icons/css/weather-icons.css",
+            "https://aaronparecki.com/assets/featherlight-1.5.0/featherlight.min.css",
+            "https://aaronparecki.com/assets/admin.css",
+            "https://aaronparecki.com/assets/pulse.css",
+            "https://aaronparecki.com/assets/styles.css",
+            "https://aaronparecki.com/site/styles.css",
+            "https://aaronparecki.com/assets/carbon.css",
+            "https://chat.pin13.net/chat.css"
+        ],
+        "pgpkey": [
+            "https://aaronparecki.com/key.txt"
+        ],
+        "me": [
+            "sms:+15035678642",
+            "https://micro.blog/aaronpk"
+        ],
+        "license": [
+            "http://creativecommons.org/licenses/by/3.0/"
+        ]
+    },
+    "debug": {
+        "package": "https://packagist.org/packages/mf2/mf2",
+        "version": "v0.3.2",
+        "note": [
+            "This output was generated from the php-mf2 library available at https://github.com/indieweb/php-mf2",
+            "Please file any issues with the parser at https://github.com/indieweb/php-mf2/issues"
+        ]
+    }
+}
