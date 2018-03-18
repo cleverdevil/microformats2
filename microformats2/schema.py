@@ -30,6 +30,14 @@ altitude = jsl.ArrayField(items=jsl.StringField(
     pattern=r'[-+]?\d+(\.\d+)?'
 ))
 
+photo_field = jsl.ArrayField(jsl.OneOfField([
+    jsl.StringField(format='uri'),
+    jsl.DictField(properties={
+        'value': jsl.StringField(format='uri'),
+        'alt': jsl.StringField()
+    })
+]))
+
 type_of = lambda *types: jsl.ArrayField(jsl.StringField(enum=types), required=True, min_length=1)
 
 
@@ -95,7 +103,7 @@ class hCard(Microformat):
         'nickname': string_array,
         'email': email_array,
         'logo': uri_array,
-        'photo': uri_array,
+        'photo': photo_field,
         'url': uri_array,
         'uid': string_array,
         'category': string_array,
@@ -140,7 +148,7 @@ class hItem(Microformat):
     properties = jsl.DictField(required=True, properties={
         'name': string_array,
         'url': uri_array,
-        'photo': uri_array
+        'photo': photo_field
     })
 
 
@@ -148,7 +156,7 @@ class hProduct(Microformat):
     type = type_of('h-product')
     properties = jsl.DictField(required=True, properties={
         'name': string_array,
-        'photo': uri_array,
+        'photo': photo_field,
         'brand': jsl.ArrayField(jsl.OneOfField([
             jsl.StringField(),
             jsl.DocumentField(hCard, as_ref=True)
@@ -224,7 +232,7 @@ class hEntry(Microformat):
             jsl.DocumentField(hItem, as_ref=True),
             jsl.DocumentField(hProduct, as_ref=True)
         ])),
-        'photo': uri_array,
+        'photo': photo_field,
         'video': uri_array,
         'audio': uri_array
     })
@@ -320,7 +328,7 @@ class hRecipe(Microformat):
         'yield': string_array,
         'instructions': content_array,
         'duration': string_array,
-        'photo': uri_array,
+        'photo': photo_field,
         'summary': content_array,
         'author': jsl.ArrayField(jsl.OneOfField([
             jsl.StringField(),
@@ -357,7 +365,7 @@ class hFeed(Microformat):
             jsl.DocumentField(hCard, as_ref=True)
         ])),
         'url': uri_array,
-        'photo': uri_array,
+        'photo': photo_field,
         'summary': content_array,
         'children': jsl.ArrayField(
             jsl.DocumentField(hEntry, as_ref=True)

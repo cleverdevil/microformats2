@@ -75,12 +75,16 @@ def get_post_type(mf2):
     if len(props.get('content', [])):
         # Then use its first non-empty value as the content
         for prop in props['content']:
-            if len(prop.get('value', '')):
-                content = prop['value']
-                break
-            elif len(prop.get('html', '')):
-                content = prop['html']
-                break
+            if isinstance(prop, dict):
+                if len(prop.get('value', '')):
+                    content = prop['value']
+                    break
+                elif len(prop.get('html', '')):
+                    content = prop['html']
+                    break
+            elif isinstance(prop, str):
+                if len(prop):
+                    content = prop
 
     # Else if the post has a "summary" property with a non-empty value,
     if content is None and len(props.get('summary', [])):
