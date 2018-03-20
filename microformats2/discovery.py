@@ -30,45 +30,62 @@ class PostTypes(Enum):
     note = 'note'
     article = 'article'
 
+    # extended types
+    bookmark = 'bookmark'
+    review = 'review'
+    recipe = 'recipe'
+    resume = 'resume'
 
-def get_post_type(mf2):
+
+def safe_get(l, index):
+    try:
+        return l[index]
+    except IndexError:
+        return None
+
+
+def get_post_type(mf2, extended=False):
     content = None
 
     props = mf2.get('properties', {})
 
     # If the post is an "event" item (may be a [microformats2] root class
     # name of [h-event]), Then it is an event.
-    if mf2.get('type', [''])[0] == 'h-event':
+    if safe_get(mf2.get('type', ['']), 0) == 'h-event':
         return PostTypes.event
 
     # If the post has an "rsvp" property with a valid value (one of "yes",
     # "no", "maybe", "interested"), Then it is an RSVP post.
-    if props.get('rsvp', [''])[0] in ('yes', 'no', 'maybe', 'interested'):
+    if safe_get(props.get('rsvp', ['']), 0) in ('yes', 'no', 'maybe', 'interested'):
         return PostTypes.rsvp
 
     # If the post has a "repost-of" property with a valid URL, Then it is a
     # repost (AKA "share") post.
-    if is_url(props.get('repost-of', [''])[0]):
+    if is_url(safe_get(props.get('repost-of', ['']), 0)):
         return PostTypes.repost
 
     # If the post has a "like-of" property with a valid URL, Then it is a like
     # (AKA "favorite") post.
-    if is_url(props.get('like-of', [''])[0]):
+    if is_url(safe_get(props.get('like-of', ['']), 0)):
         return PostTypes.like
+
+    # Extended types
+    if extended and is_url(safe_get(props.get('bookmark-of', ['']), 0)):
+        return PostTypes.bookmark
 
     # If the post has an "in-reply-to" property with a valid URL, Then it is a
     # reply post.
-    if is_url(props.get('in-reply-to', [''])[0]):
+    if is_url(safe_get(props.get('in-reply-to', ['']), 0)):
         return PostTypes.reply
 
     # If the post has a "video" property with a valid URL, Then it is a video
     # post.
-    if is_url(props.get('video', [''])[0]):
+    if is_url(safe_get(props.get('video', ['']), 0)):
         return PostTypes.video
 
     # If the post has a "photo" property with a valid URL, Then it is a photo
     # post.
-    if is_url(props.get('photo', [''])[0]):
+    if is_url(safe_get(props.get('photo', ['']), 0)):
         return PostTypes.photo
 
     # If the post has a "content" property with a non-empty value,
@@ -82,7 +99,6 @@ def get_post_type(mf2):
                 elif len(prop.get('html', '')):
                     content = prop['html']
                     break
-            elif isinstance(prop, str):
                 if len(prop):
                     content = prop
 
