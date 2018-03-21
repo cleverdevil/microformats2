@@ -11,6 +11,7 @@ from setuptools.command.test import test as TestCommand
 
 here = os.path.abspath(os.path.dirname(__file__))
 
+
 class PyTest(TestCommand):
     user_options = [('pytest-args=', 'a', "Arguments to pass into py.test")]
 
@@ -32,13 +33,8 @@ class PyTest(TestCommand):
 
 packages = ['microformats2']
 
-requires = [
-    'jsl>=0.2.4',
-    'jsonschema>=2.6.0'
-]
-test_requirements = [
-    'pytest>=2.8.0'
-]
+requires = ['jsl>=0.2.4', 'jsonschema>=2.6.0']
+test_requirements = ['pytest>=2.8.0']
 
 
 setup(

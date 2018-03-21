@@ -12,9 +12,12 @@ def is_url(value):
         parsed = urlparse(value)
         if len(parsed.scheme) == 0:
             return False
+
         if len(parsed.netloc) == 0:
             return False
+
         return True
+
     except:
         return False
 
@@ -40,6 +43,7 @@ class PostTypes(Enum):
 def safe_get(l, index):
     try:
         return l[index]
+
     except IndexError:
         return None
 
@@ -96,9 +100,11 @@ def get_post_type(mf2, extended=False):
                 if len(prop.get('value', '')):
                     content = prop['value']
                     break
+
                 elif len(prop.get('html', '')):
                     content = prop['html']
                     break
+
                 if len(prop):
                     content = prop
 
@@ -118,11 +124,8 @@ def get_post_type(mf2, extended=False):
     if (
         # If the post has no "name" property
         (not props.get('name'))
-
-        or
-
+        or (props.get('name', [''])[0] == '')
         # or has a "name" property with an empty string value (or no value)
-        (props.get('name', [''])[0] == '')
     ):
         # Then it is a note post.
         return PostTypes.note
@@ -147,6 +150,7 @@ def get_post_type(mf2, extended=False):
             if not content.startswith(name):
                 # Then it is an article post.
                 return PostTypes.article
+
             else:
                 return PostTypes.note
 
