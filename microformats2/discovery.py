@@ -105,8 +105,9 @@ def get_post_type(mf2, extended=False):
                     content = prop['html']
                     break
 
-                if len(prop):
+                if isinstance(prop, str) and len(prop):
                     content = prop
+                    break
 
     # Else if the post has a "summary" property with a non-empty value,
     if content is None and len(props.get('summary', [])):
