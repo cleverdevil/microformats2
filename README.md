@@ -100,7 +100,7 @@ assert microformats2.get_post_type(mf2) == microformats2.PostTypes.article
 
 Convert MF2 JSON to JF2:
 
-```
+```python
 jf2 = microformats2.to_jf2(mf2)
 assert jf2 == {
     "type": "entry",
