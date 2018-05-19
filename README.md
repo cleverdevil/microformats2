@@ -97,3 +97,21 @@ mf2 = {
 
 assert microformats2.get_post_type(mf2) == microformats2.PostTypes.article
 ```
+
+Convert MF2 JSON to JF2:
+
+```
+jf2 = microformats2.to_jf2(mf2)
+assert jf2 == {
+    "type": "entry",
+    "name": "Microformats are amazing",
+    "author": {
+        "type": "card",
+        "name": "W. Developer",
+        "url": "http://example.com"
+    },
+    "published": "2013-06-13 12:00:00",
+    "summary": "In which I extoll the virtues of using microformats.",
+    "content": "Blah blah blah"
+}
+```
