@@ -54,7 +54,7 @@ refer to
 [schema.json](https://raw.githubusercontent.com/cleverdevil/microformats2/master/schema.json)
 which was generated using this command:
 
-```python3
+```sh
 python tools/generate.py > schema.json
 ```
 
