@@ -1,0 +1,1787 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "microformats2.schema.hGeo": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-geo"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "latitude": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "[-+]?\\d+(\\.\\d+)?"
+              }
+            },
+            "longitude": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "[-+]?\\d+(\\.\\d+)?"
+              }
+            },
+            "altitude": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "[-+]?\\d+(\\.\\d+)?"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hAdr": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-adr"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "street-address": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "extended-address": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "post-office-box": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "locality": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "region": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "postal-code": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "country-name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "label": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "geo": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hGeo"
+                  }
+                ]
+              }
+            },
+            "latitude": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "[-+]?\\d+(\\.\\d+)?"
+              }
+            },
+            "longitude": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "[-+]?\\d+(\\.\\d+)?"
+              }
+            },
+            "altitude": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "[-+]?\\d+(\\.\\d+)?"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hCard": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-card"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "honorific-prefix": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "given-name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "additional-name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "family-name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "sort-string": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "honorific-suffix": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "nickname": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "email": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "email"
+              }
+            },
+            "logo": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "photo": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "alt": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "url": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "uid": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "category": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "adr": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hAdr"
+                  }
+                ]
+              }
+            },
+            "street-address": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "extended-address": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "post-office-box": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "locality": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "region": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "postal-code": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "country-name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "label": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "geo": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hGeo"
+                  }
+                ]
+              }
+            },
+            "latitude": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "[-+]?\\d+(\\.\\d+)?"
+              }
+            },
+            "longitude": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "[-+]?\\d+(\\.\\d+)?"
+              }
+            },
+            "altitude": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "[-+]?\\d+(\\.\\d+)?"
+              }
+            },
+            "tel": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "note": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "bday": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "key": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "org": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            },
+            "job-title": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "role": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "impp": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "sex": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "gender-identity": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "anniversary": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hItem": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-item"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "url": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "photo": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "alt": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hEvent": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-event"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "summary": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "start": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "end": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "duration": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "url": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "category": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "location": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hGeo"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hAdr"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hReview": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-review"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "item": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hItem"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hProduct"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hEvent"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hAdr"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hGeo"
+                  }
+                ]
+              }
+            },
+            "author": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            },
+            "published": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "rating": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "category": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "url": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "content": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "html": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hRating": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-rating"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "average": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "best": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "count": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hReviewAggregate": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-review-aggregate"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "rating": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hRating"
+                  }
+                ]
+              }
+            },
+            "item": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hItem"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hProduct"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hEvent"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hAdr"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hGeo"
+                  }
+                ]
+              }
+            },
+            "average": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "best": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "worst": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "count": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "votes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "category": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "url": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hProduct": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-product"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "photo": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "alt": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "brand": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            },
+            "category": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "html": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "url": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "identifier": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "review": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hReview"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hReviewAggregate"
+                  }
+                ]
+              }
+            },
+            "price": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hCite": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-cite"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "published": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "author": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            },
+            "url": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "uid": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "publication": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "accessed": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "content": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "html": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hEntry": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-entry"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "summary": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "content": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "html": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "published": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "updated": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "author": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            },
+            "category": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "url": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "uid": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "location": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hGeo"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hAdr"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            },
+            "syndication": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "in-reply-to": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCite"
+                  }
+                ]
+              }
+            },
+            "rsvp": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "no",
+                  "maybe",
+                  "interested"
+                ]
+              },
+              "minItems": 1,
+              "maxItems": 1
+            },
+            "like-of": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "repost-of": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "bookmark-of": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hItem"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hProduct"
+                  }
+                ]
+              }
+            },
+            "photo": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "alt": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "video": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "audio": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hRecipe": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-recipe"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "ingredient": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "html": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "yield": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "instructions": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "html": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "duration": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "photo": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "alt": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "summary": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "html": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "author": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            },
+            "published": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "nutrition": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "category": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hResume": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-resume"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "summary": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "html": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "contact": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            },
+            "education": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/microformats2.schema.hEvent"
+              }
+            },
+            "experience": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/microformats2.schema.hEvent"
+              }
+            },
+            "skill": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "affiliation": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/microformats2.schema.hCard"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    },
+    "microformats2.schema.hFeed": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "h-feed"
+            ]
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "author": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "$ref": "#/definitions/microformats2.schema.hCard"
+                  }
+                ]
+              }
+            },
+            "url": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "photo": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "alt": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "summary": {
+              "type": "array",
+              "items": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "html": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "children": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/microformats2.schema.hEntry"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "type",
+        "properties"
+      ],
+      "additionalProperties": true
+    }
+  },
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/definitions/microformats2.schema.hGeo"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hAdr"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hCard"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hItem"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hProduct"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hEntry"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hEvent"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hReview"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hReviewAggregate"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hRecipe"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hResume"
+          },
+          {
+            "$ref": "#/definitions/microformats2.schema.hFeed"
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -49,6 +49,15 @@ import json
 print(json.dumps(microformats2.schema_for('h-entry'), indent=2))
 ```
 
+For those of you not using Python, who just want a raw JSON schema file to use,
+refer to
+[schema.json](https://raw.githubusercontent.com/cleverdevil/microformats2/master/schema.json)
+which was generated using this command:
+
+```python3
+python tools/generate.py > schema.json
+```
+
 Determine the post type for a MF2 JSON entry, using the [Post Type
 Discovery](https://www.w3.org/TR/post-type-discovery/) guidelines from the W3C.
 
